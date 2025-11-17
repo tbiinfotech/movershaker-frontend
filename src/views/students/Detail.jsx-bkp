@@ -1,0 +1,314 @@
+// import { useEffect, useMemo } from 'react';
+// import {
+//   MaterialReactTable,
+//   MRT_EditActionButtons,
+//   useMaterialReactTable,
+//   MRT_GlobalFilterTextField,
+//   MRT_ToggleFiltersButton,
+//   type MRT_ColumnDef,
+//   type MRT_Row,
+//   type MRT_TableOptions
+// } from 'material-react-table';
+// import {
+//   Box,
+//   Button,
+//   ListItemIcon,
+//   MenuItem,
+//   Typography,
+//   lighten,
+//   DialogActions,
+//   DialogContent,
+//   DialogTitle,
+//   IconButton,
+//   Tooltip
+// } from '@mui/material';
+
+// import { AccountCircle, Send } from '@mui/icons-material';
+// import LOGO from './../../assets/images/moverLogo.jpg';
+// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+// import { useSelector } from 'react-redux';
+
+// import EditIcon from '@mui/icons-material/Edit';
+// import DeleteIcon from '@mui/icons-material/Delete';
+
+// const Student = () => {
+//   const students = useSelector((state) => state.module);
+//   let data = students?.students;
+
+//   //UPDATE action
+//   const handleSaveUser: MRT_TableOptions<User>['onEditingRowSave'] = async ({ values, table }) => {
+//     const newValidationErrors = validateUser(values);
+//     if (Object.values(newValidationErrors).some((error) => error)) {
+//       setValidationErrors(newValidationErrors);
+//       return;
+//     }
+//     setValidationErrors({});
+//     await updateUser(values);
+//     table.setEditingRow(null); //exit editing mode
+//   };
+
+//   const columns = useMemo(
+//     () => [
+//       {
+//         id: 'student_name',
+//         header: 'Student Name',
+//         columns: [
+//           {
+//             accessorFn: (row) => `${row.First_Name} ${row.Last_Name}`,
+//             id: 'student_name',
+//             header: 'Student Name',
+//             size: 250,
+//             Cell: ({ renderedCellValue, row }) => (
+//               <Box
+//                 sx={{
+//                   display: 'flex',
+//                   alignItems: 'center',
+//                   gap: '1rem'
+//                 }}
+//               >
+//                 <img alt="avatar" height={30} src={LOGO} loading="lazy" style={{ borderRadius: '50%' }} />
+//                 {/* using renderedCellValue instead of cell.getValue() preserves filter match highlighting */}
+//                 <span>{renderedCellValue}</span>
+//               </Box>
+//             )
+//           }
+//         ]
+//       },
+//       {
+//         id: 'email',
+//         header: 'Email',
+//         columns: [
+//           {
+//             accessorKey: 'Email',
+//             enableClickToCopy: true,
+//             filterVariant: 'autocomplete',
+//             header: 'Email',
+//             size: 300
+//           }
+//         ]
+//       },
+//       {
+//         id: 'home_address',
+//         header: 'Home_Address',
+//         columns: [
+//           {
+//             accessorKey: 'Home_Address',
+//             enableClickToCopy: true,
+//             filterVariant: 'autocomplete',
+//             header: 'Home Address',
+//             size: 300
+//           }
+//         ]
+//       },
+//       {
+//         id: 'academy_location',
+//         header: 'Academy location',
+//         columns: [
+//           {
+//             accessorKey: 'Academy_location',
+//             header: 'Academy location',
+//             size: 350
+//           }
+//         ]
+//       },
+//       {
+//         id: 'approval_state',
+//         header: 'Status',
+//         columns: [
+//           {
+//             accessorKey: 'approval_state',
+//             header: 'Status',
+//             size: 350
+//           }
+//         ]
+//       },
+//       {
+//         id: 'id',
+//         header: 'Start Date',
+//         columns: [
+//           {
+//             accessorFn: (row) => new Date(row.createdAt),
+//             id: 'createdAt',
+//             header: 'Start Date',
+//             filterVariant: 'date',
+//             filterFn: 'lessThan',
+//             sortingFn: 'datetime',
+//             Cell: ({ cell }) => cell.getValue()?.toLocaleDateString(),
+//             Header: ({ column }) => <em>{column.columnDef.header}</em>,
+//             muiFilterTextFieldProps: {
+//               sx: {
+//                 minWidth: '250px'
+//               }
+//             }
+//           }
+//         ]
+//       }
+//     ],
+//     []
+//   );
+
+//   const table = useMaterialReactTable({
+//     columns,
+//     data,
+//     enableColumnFilterModes: true,
+//     enableColumnOrdering: true,
+//     enableGrouping: true,
+//     enableColumnPinning: true,
+//     enableFacetedValues: true,
+//     enableRowActions: true,
+//     enableRowSelection: true,
+//     initialState: {
+//       showColumnFilters: true,
+//       showGlobalFilter: true,
+//       columnPinning: {
+//         left: ['mrt-row-expand', 'mrt-row-select'],
+//         right: ['mrt-row-actions']
+//       }
+//     },
+//     paginationDisplayMode: 'pages',
+//     positionToolbarAlertBanner: 'bottom',
+//     muiSearchTextFieldProps: {
+//       size: 'small',
+//       variant: 'outlined'
+//     },
+//     muiPaginationProps: {
+//       color: 'secondary',
+//       rowsPerPageOptions: [10, 20, 30],
+//       shape: 'rounded',
+//       variant: 'outlined'
+//     },
+//     onEditingRowSave: handleSaveUser,
+//     renderDetailPanel: ({ row }) => (
+//       <Box
+//         sx={{
+//           alignItems: 'center',
+//           display: 'flex',
+//           justifyContent: 'space-around',
+//           left: '30px',
+//           maxWidth: '1000px',
+//           position: 'sticky',
+//           width: '100%'
+//         }}
+//       >
+//         <img alt="avatar" height={200} src={LOGO} loading="lazy" style={{ borderRadius: '50%' }} />
+//         <Box sx={{ textAlign: 'center' }}>
+//           <Typography variant="h4">Signature Catch Phrase:</Typography>
+//           <Typography variant="h1">&quot;{row.Product_Name}&quot;</Typography>
+//         </Box>
+//       </Box>
+//     ),
+//     renderRowActionMenuItems: ({ closeMenu }) => [
+//       <MenuItem
+//         key={0}
+//         onClick={() => {
+//           closeMenu();
+//         }}
+//         sx={{ m: 0 }}
+//       >
+//         <ListItemIcon>
+//           <AccountCircle />
+//         </ListItemIcon>
+//         View Profile
+//       </MenuItem>,
+//       <MenuItem
+//         key={1}
+//         onClick={() => {
+//           closeMenu();
+//         }}
+//         sx={{ m: 0 }}
+//       >
+//         <ListItemIcon>
+//           <Send />
+//         </ListItemIcon>
+//         Send Email
+//       </MenuItem>
+//     ],
+//     renderTopToolbar: ({ table }) => {
+//       const handleDeactivate = () => {
+//         table.getSelectedRowModel().flatRows.map((row) => {
+//           alert('deactivating ' + row.getValue('name'));
+//         });
+//       };
+
+//       const handleActivate = () => {
+//         table.getSelectedRowModel().flatRows.map((row) => {
+//           alert('activating ' + row.getValue('name'));
+//         });
+//       };
+
+//       const handleContact = () => {
+//         table.getSelectedRowModel().flatRows.map((row) => {
+//           alert('contact ' + row.getValue('name'));
+//         });
+//       };
+
+//       return (
+//         <Box
+//           sx={(theme) => ({
+//             backgroundColor: lighten(theme.palette.background.default, 0.05),
+//             display: 'flex',
+//             gap: '0.5rem',
+//             p: '8px',
+//             justifyContent: 'space-between'
+//           })}
+//         >
+//           <Box sx={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+//             <MRT_GlobalFilterTextField table={table} />
+//             <MRT_ToggleFiltersButton table={table} />
+//           </Box>
+//           <Box>
+//             {/* <Box sx={{ display: 'flex', gap: '0.5rem' }}>
+//               <Button color="error" disabled={!table.getIsSomeRowsSelected()} onClick={handleDeactivate} variant="contained">
+//                 Deactivate
+//               </Button>
+//               <Button color="success" disabled={!table.getIsSomeRowsSelected()} onClick={handleActivate} variant="contained">
+//                 Activate
+//               </Button>
+//               <Button color="info" disabled={!table.getIsSomeRowsSelected()} onClick={handleContact} variant="contained">
+//                 Contact
+//               </Button>
+//             </Box> */}
+//           </Box>
+//         </Box>
+//       );
+//     },
+//     renderEditRowDialogContent: ({ table, row, internalEditComponents }) => (
+//       <>
+//         <DialogTitle variant="h3">Edit User</DialogTitle>
+//         <DialogContent sx={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+//           {internalEditComponents} {/* or render custom edit components here */}
+//         </DialogContent>
+//         <DialogActions>
+//           <MRT_EditActionButtons variant="text" table={table} row={row} />
+//         </DialogActions>
+//       </>
+//     ),
+//     renderRowActions: ({ row, table }) => (
+//       <Box sx={{ display: 'flex', gap: '1rem' }}>
+//         <Tooltip title="Edit">
+//           <IconButton onClick={() => table.setEditingRow(row)}>
+//             <EditIcon />
+//           </IconButton>
+//         </Tooltip>
+//         <Tooltip title="Delete">
+//           <IconButton color="error" onClick={() => openDeleteConfirmModal(row)}>
+//             <DeleteIcon />
+//           </IconButton>
+//         </Tooltip>
+//       </Box>
+//     )
+//   });
+
+//   return <MaterialReactTable table={table} />;
+// };
+
+// //Date Picker Imports - these should just be in your Context Provider
+
+// const ExampleWithLocalizationProvider = () => (
+//   <LocalizationProvider dateAdapter={AdapterDayjs}>
+//     <Student />
+//   </LocalizationProvider>
+// );
+
+// export default ExampleWithLocalizationProvider;

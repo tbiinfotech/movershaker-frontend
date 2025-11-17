@@ -1,0 +1,27 @@
+.chat-bubble {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .chat-bubble.left {
+    justify-content: flex-start; /* Align to the left */
+  }
+  
+  .chat-bubble.right {
+    justify-content: flex-end; /* Align to the right */
+  }
+  
+  .chat-bubble__content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .chat-bubble.left .chat-bubble__content {
+    background-color: #007bff; /* Blue for incoming messages */
+  }
+  
+  .chat-bubble.right .chat-bubble__content {
+    background-color: #28a745; /* Green for outgoing messages */
+  }

@@ -1,0 +1,3680 @@
+[
+    {
+        "id": "1759657943312",
+        "text": "U2FsdGVkX18hwKaKUlxeXUBc2GviPc+RUccjzPOcAzRT0DOIYxqO8vbNmk6TBCJ0",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759657943,
+            "nanoseconds": 357000000
+        },
+        "isRead": [
+            "68b86762c959aa8a60d99ddb",
+            "68da0f0df72b1204cffd69cf",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68dc5488f72b1204cffdce71",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d798e5f72b1204cffd00c8",
+            "68c9c436640b2c0f5d6afe67",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c24369179efeb2962fe0a4",
+            "68dc447ff72b1204cffdcc89",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d700c959aa8a60d829b2",
+            "68d2f0a8f72b1204cffc48f8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d68fc959aa8a60d827de",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedText": "U2FsdGVkX183ufwkeAwN2wsQ9sQ0IFkOQZz55pLNa/lEyFxqmhvma2NBZ16Z/neO",
+            "repliedAt": {
+                "seconds": 1759657943,
+                "nanoseconds": 357000000
+            },
+            "repliedMsgText": "Good morning Danny, whats the name of the song?",
+            "repliedTo": "Ana Arredondo",
+            "repliedBy": "68b2d6fec959aa8a60d829a7"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759727404630",
+        "text": "U2FsdGVkX1+GmPmnPT3FujdIalFFeA3SeX5vseuVQm/IwsJsEmRnwX2aXzVJE4vHX8Jiz0ZQnCvB8UO7oK1TquBdMQUd8s+gCYjULGzFjd8WJyd7HH6OUxoSU7C5i5YKlzhFQcVinBVQUQtXxGsjKBFtT4ByVNUHYic+g4TE/N36sY7/mz3RLDwrNOYqiJRl2JWSYS3kx8RblJ+qs7aACISiw3AiAgZx57mTIh+VZx4=",
+        "sentBy": {
+            "displayName": "Gevork Khachmanyan",
+            "uid": "68d06ab9640b2c0f5d6c1b76"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759727404,
+            "nanoseconds": 713000000
+        },
+        "isRead": [
+            "68c24369179efeb2962fe0a4",
+            "68dc447ff72b1204cffdcc89",
+            "68b2d6fec959aa8a60d829a7",
+            "68da0f0df72b1204cffd69cf",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68b86762c959aa8a60d99ddb",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d798e5f72b1204cffd00c8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedText": "U2FsdGVkX1/Y79Y8nJSGipqz9Poo+VoiXkvbkJi3BmXBjcZtEkkgNYljT8FQBMsoCCmuR4l23TqzTS1KJi+xn6rdxkvcksH40cMa2lq7kYepOszwuPMAdewFqMFjhOYNjx8qKb+XnGeCsoImnZrfOBrUjkQWyOwEcbH1XIo1QWo6Rb/YSDoKgIPle9u6t14J/fgULk/Y4jwHBUdcWFx/enmMFYeNx9ZTHUxTd2OLAN8=",
+            "repliedBy": "68d06ab9640b2c0f5d6c1b76",
+            "repliedAt": {
+                "seconds": 1759727404,
+                "nanoseconds": 713000000
+            },
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "😁": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759728023931",
+        "text": "U2FsdGVkX1/8oi3UWhxg4QwhHx4Yl0Te1LOnFflqmIJIF6IEvRFfhhOEFA9tIw2pUNj/ruonSL6V7JgQ29QRVccchTcq6UUNcfGFXDtOzv3tCGLXOJQL1LEXBY1uKDMMlZ8tBZ6GfgoQYkzcfsgXmL997zwXgMM481XP5ynelaRVPS94MxNBaZTtRZSzROkr73ME48hvTUeePG/21NspmNWX/01axWCDPxlXUNjnBpGChTNVOrmeEYr0RV9681+E4YQULvzgO6BhqsJ1YnRge3AekW3J81z8jRm2nHx3ylR15am6ffMJe2LcK8jQGNXBLB0WCk6W2vxrfhS14nExbKC8C51V0XC65Bv/+xbLras+OHLrzpSRStvHsb6Hf6WW",
+        "sentBy": {
+            "displayName": "Kenia gonzalez",
+            "uid": "68dc447ff72b1204cffdcc89"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759728023,
+            "nanoseconds": 974000000
+        },
+        "isRead": [
+            "68b2d6fec959aa8a60d829a7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68da0f0df72b1204cffd69cf",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68b86762c959aa8a60d99ddb",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d798e5f72b1204cffd00c8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68c24369179efeb2962fe0a4",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759728100771",
+        "text": "U2FsdGVkX18gJGjt19YyeHbGYHsjHBYRzn8YoLPV/X2KZ1zcTUlK6R8Ubm3IkAOq",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759728100,
+            "nanoseconds": 809000000
+        },
+        "isRead": [
+            "68dc447ff72b1204cffdcc89",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68da0f0df72b1204cffd69cf",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68b86762c959aa8a60d99ddb",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d798e5f72b1204cffd00c8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68c24369179efeb2962fe0a4",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedAt": {
+                "seconds": 1759728100,
+                "nanoseconds": 809000000
+            },
+            "repliedText": "U2FsdGVkX1/iprZV0/DoC9CC+SmVD5mP2IrJzt8E6MN07sBCbFLYGM/W2CqeTyoW",
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedMsgText": "For me listening to the music was part of my upbringing grupo niche/ March Anthony… I’ve always had natural love for the Rythim and the passion that salsa music brings☺️  also the socializing and meeting new people! :) it’s good to get out of our comfort zone!",
+            "repliedTo": "Kenia gonzalez"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759728134453",
+        "text": "U2FsdGVkX1+SJ/81PtiQ9SpzULbBAPM6b/ljFKbulnwppE+2vSA3u8KBjwM9qFzu",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759728134,
+            "nanoseconds": 491000000
+        },
+        "isRead": [
+            "68dc447ff72b1204cffdcc89",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68da0f0df72b1204cffd69cf",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68b86762c959aa8a60d99ddb",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d798e5f72b1204cffd00c8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68c24369179efeb2962fe0a4",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedMsgText": "Hey hey. Gevork here. My friend Armen roped me into trying the class to try something new and get to meet people and socialize. So here I am lol.",
+            "repliedAt": {
+                "seconds": 1759728134,
+                "nanoseconds": 491000000
+            },
+            "repliedText": "U2FsdGVkX1/vOYzDIfJdMgHfzVWKeSa9A4bUNPmZsQ8lDG/IImiGP3woRqv+mKPY",
+            "repliedTo": "Gevork Khachmanyan",
+            "repliedBy": "68b2d6fec959aa8a60d829a7"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759770372038",
+        "text": "U2FsdGVkX1/u8ad4U0G2O0Um69l71TJ0C3mWZNZVGRxh3np/oJ919jh9hlFTQOh3EoJQNKZdybS+zG5p/7CIzk1Aq/9xhYMDuD1M+5mvDQMotes6qh0oHbOFG1278gtCjE+/0vCmAN85zvoF0Qc42aVrdCxTI4lJs50YUxRFBLfmSX9MqFMyz4RRCVVnoPBo",
+        "sentBy": {
+            "displayName": "Darshii A",
+            "uid": "68d09a7c640b2c0f5d6c21f7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759770372,
+            "nanoseconds": 83000000
+        },
+        "isRead": [
+            "68dc447ff72b1204cffdcc89",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc5488f72b1204cffdce71",
+            "68da0f0df72b1204cffd69cf",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d700c959aa8a60d829b2",
+            "68db0914f72b1204cffd9542",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc4099f72b1204cffdcc16",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68c24369179efeb2962fe0a4",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759880723351",
+        "text": "U2FsdGVkX19c/zjOJ9uvXN1XXokIyMa9H09446fI/wdZqmwc1mPtiqqZ2VkYk1i4entwsJggPSebVycV6JTxQR5b8DI7FtDFfJYdzOZ5a2nWYNjepZOU3tnAR6pVJswR3JvUxSgr0bzsxuyf22RQGEKu8bXprxoWolhaa9tLcTunjwMiY1i0W5et09bD1MDrg/Nb2m3JS6JklYZYqB3lClJ+E7SHX7Md9PiWcGCTPMM+VJ5M42+iBQsi8SOqD0iC",
+        "sentBy": {
+            "displayName": "Alex Lawton",
+            "uid": "68dc4099f72b1204cffdcc16"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759880723,
+            "nanoseconds": 479000000
+        },
+        "isRead": [
+            "68dc447ff72b1204cffdcc89",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c24369179efeb2962fe0a4",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d68fc959aa8a60d827de",
+            "68b2d688c959aa8a60d827be",
+            "68d798e5f72b1204cffd00c8",
+            "68bf86ed179efeb2962f68ec",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d700c959aa8a60d829b2",
+            "68db0914f72b1204cffd9542",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68dc5488f72b1204cffdce71",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "😯": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759886762294",
+        "text": "U2FsdGVkX1/VYLuXNI9X+b6y1+60hDbvcXQVnewLMTpzmflg2xHFeArPUvxUh0XxRvxr7J0vaebWChmCBivdk3YpxglksLchnP16diu+jNTcDL90yovK0e4Ma/VMhSx59J17NdYhWbk8OU+foMJVmeMnPs5tkf1k/nhFlx24OzSshfbkKmAlUSWcI7a2zfL1PA5Cne+DPe5evUfoNOyEBQDEEDjy+1p7u/+DaXbv8BDj6bF2+uzPnjZIhiMtOpKW5plnkUKYVuchOUP0cecoJuLydVe2yJvbPTwGX9WK1UbFJGZyeLe8jyaANUIvr5jg6SwHQ2tbdnuveQjQGaPwEA==",
+        "sentBy": {
+            "uid": "68db01e1f72b1204cffd945b",
+            "displayName": "Noela Estrada"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759886762,
+            "nanoseconds": 340000000
+        },
+        "isRead": [
+            "68dc4099f72b1204cffdcc16",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68d798e5f72b1204cffd00c8",
+            "68abdbda97d6121fb1d0b03a",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d700c959aa8a60d829b2",
+            "68db0914f72b1204cffd9542",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68dc447ff72b1204cffdcc89",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68dc5488f72b1204cffdce71",
+            "68d6cf32f72b1204cffceb65",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68d43042f72b1204cffc7fe9",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68c24369179efeb2962fe0a4",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "😍": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759901990548",
+        "text": "U2FsdGVkX1+w1bSoAx2xx8Xy1yfT46TnwDoI7LW0lEPiiT/NrzljpjX/1pAMT5AmchT3HvLYyMJgbqFIVHX6W02fcCUANl8nVMOE20vXiAEM9vX6TkRrg90z82Hrtpfy",
+        "sentBy": {
+            "uid": "68cdaab3640b2c0f5d6bad2b",
+            "displayName": "Sasha Herbst de Cortina"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759901990,
+            "nanoseconds": 693000000
+        },
+        "isRead": [
+            "68db0914f72b1204cffd9542",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d700c959aa8a60d829b2",
+            "68d798e5f72b1204cffd00c8",
+            "68dc447ff72b1204cffdcc89",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68dc5488f72b1204cffdce71",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759902648504",
+        "text": "U2FsdGVkX1/LXdL0akvVD8L/+WuW5IqvaMBOxaRAtRKgTo9rQjnDsiMp+yQ4ko8z/IBKmwJu0YorLMWM2xO6J3acV+FnATP00hwIfohlRn1hiWD/fzbBn33rXEQa9xFsEdNaX4UcBm7InCYfn76Yf/XhMLEL1bXFfqPjV9Kl8hhPcXTbODtU63fymu8Q2x2VfUCQ4FaAYVy2i7zBBW1XyfjEOO7M8YbDzIg88FD5qfNmMZWNcGUfOLoW2HzpB63lYtsf14aCin0+8eFHh82CJGkyjj3GVibe7K72xagCN/ROAcZkGWH8JTfjAHfje44w3POHnFbp2JymYtFoJlyv9B2zs36BA6YBzz7PrnAWbRg=",
+        "sentBy": {
+            "uid": "68b2d700c959aa8a60d829b2",
+            "displayName": "Rogelio Bautista"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759902648,
+            "nanoseconds": 556000000
+        },
+        "isRead": [
+            "68d798e5f72b1204cffd00c8",
+            "68dc447ff72b1204cffdcc89",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7",
+                "68cdaab3640b2c0f5d6bad2b"
+            ]
+        }
+    },
+    {
+        "id": "1759902871248",
+        "text": "U2FsdGVkX1/ftCkJ2vh1Z9imdmvvMjdogW7/p/zC7ZvdUtrt3qBqiTMMCk6NOlJcq/iiy9rXVBTXux9GS4p5HEEfzI2bI73ekjRDx2wjkFN5UaBVgXJFQcIE0tUDsGMJ3v18mJ0DB1z1iCKDDS22aw==",
+        "sentBy": {
+            "displayName": "Mercedes Nieves",
+            "uid": "68d798e5f72b1204cffd00c8"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759902871,
+            "nanoseconds": 302000000
+        },
+        "isRead": [
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc447ff72b1204cffdcc89",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d700c959aa8a60d829b2",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759902959422",
+        "text": "U2FsdGVkX1+zXsc5Nbjp+UqAIjt0WkoraCbebYYsMYOV58bZyUInraGIeWj+Sbb8AQk8b5+y+7AO/VAlHfijxbqQU80x73gr3/lBEPWjzLEmQHNFJPKqkf8iR6/DJwD2M0CzmVGkwRR6YGL4JKthGA==",
+        "sentBy": {
+            "uid": "68d2f0a8f72b1204cffc48f8",
+            "displayName": "Robert Khedr"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759902959,
+            "nanoseconds": 469000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d700c959aa8a60d829b2",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedAt": {
+                "seconds": 1759902959,
+                "nanoseconds": 469000000
+            },
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedBy": "68d2f0a8f72b1204cffc48f8",
+            "repliedText": "U2FsdGVkX19+qGGeJQVuZx/O9pGp6meJ2ZEJ7Dqx5GsBcWZMN6Zo24NY28Fchq/E8+O5xNThmNo0Sm1iKCcbFVOrrP3piEX2XygjeieCwrnpa+38qCBJiX6yID1z5kgGDiJxaFdSdmip/HACvTU7pw==",
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759903679203",
+        "text": "U2FsdGVkX1+Nai3lfmkmF5Vrq4fuATIBderMGVXKTLThpobe9mO2lhFa0uGV6g4ZHo1A+nxofQFAseyyF1BKcv45W6qhoRGCciGiJMkpI94891Fsts4KzU4FgPvgJ+cDwkrSr43RN/KI7b1Ez6621XPzkhqD1TQkqvrhOjujI4E=",
+        "sentBy": {
+            "displayName": "Davion Myles",
+            "uid": "68c8a1c1640b2c0f5d6ad0df"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759903679,
+            "nanoseconds": 391000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedAt": {
+                "seconds": 1759903679,
+                "nanoseconds": 391000000
+            },
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman",
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedBy": "68c8a1c1640b2c0f5d6ad0df",
+            "repliedText": "U2FsdGVkX19sHX6U5qhWqCJ0urZK/EOe6lZIqKQiwJtLGTdNPemn9INeIa2W+QCAagSiZwHaTzUz5L6lAIecXe+EbAOWqtqGtXkKiF7jiX5//qY/bdesWpxNMv8TjaemMfnpGzJciij/kSGBFLa0cfClOJg/jcMpgaredbHz4OU="
+        },
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7",
+                "68cdaab3640b2c0f5d6bad2b",
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759903770083",
+        "text": "U2FsdGVkX18u1cLc6L6ELeiahwTCGDAAWBYExOBzymyhPrk5dBpp7PDqUz2ivmRuk/xYgjKYUlymvpQ13bn+9zfSmIZUoD97OMVoWOGs778=",
+        "sentBy": {
+            "uid": "68c8a1c1640b2c0f5d6ad0df",
+            "displayName": "Davion Myles"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759903770,
+            "nanoseconds": 177000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759903814393",
+        "text": "U2FsdGVkX19Z59pNBE0neEOvqfc9vl4g30A885287r568TCTE26fUhWPi5O/kxF7k9uCgMn4ArMGAmWA8axUegLtiCwMC/bUcGSvvpN483G1u9lj/Mf9s+vIQ0uhDkdt6ZwY5r6d1s09g9uBnysyHGkhyUY5OQt6IwbF3aP5NTg3624VuhRiGDYHj5GvS1mc+EmRuyvO/A1nOjxNJNBO8w==",
+        "sentBy": {
+            "displayName": "Nicolette X",
+            "uid": "68c8a43e640b2c0f5d6ad123"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759903814,
+            "nanoseconds": 448000000
+        },
+        "isRead": [
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman",
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedText": "U2FsdGVkX1+1Z9dp7PT14pxn1GK2Ik/DvnnlKhq8n3itRCVKRM2B7SAxjezmi9Kln0p+T2B0kYnuTA9jicwQ1N6cyIZoe4MFQKzdJKDioev+P9XRS2xPVjPAUeejHYLO30l1ZDxphbMm6am/v4YnogB6qW8K60awUW1IIuRtIie9xEIWHR+37sZx47bhMLVVukHQQiJPUahjWFj6OrSw3w==",
+            "repliedAt": {
+                "seconds": 1759903814,
+                "nanoseconds": 448000000
+            },
+            "repliedBy": "68c8a43e640b2c0f5d6ad123"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "😃": [
+                "68cef59a640b2c0f5d6be164"
+            ],
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759904146097",
+        "text": "U2FsdGVkX18Dwj9bpt9/A65YSpl15g05aQESTSfXHqo=",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904146,
+            "nanoseconds": 159000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedAt": {
+                "seconds": 1759904146,
+                "nanoseconds": 159000000
+            },
+            "repliedTo": "Darshii A",
+            "repliedMsgText": "Hi this is Darshii \n\nI wanted to learn salsa since quite some time now.. Lets just say, dancing is like a therapy 😃",
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedText": "U2FsdGVkX18fQ57/X15CZpUDawJ9FUL3FH0b/RjJqug="
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904153797",
+        "text": "U2FsdGVkX19Hi2Wra3TmJIOCGGpdL/kwFPjBGfmNO44=",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904153,
+            "nanoseconds": 859000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904189116",
+        "text": "U2FsdGVkX18APXtA9N5XC+3it9WApWEkk+SxMhJEGOHadobmPW42OoZaGONrIvrs",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904189,
+            "nanoseconds": 199000000
+        },
+        "isRead": [
+            "68c8a43e640b2c0f5d6ad123",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedMsgText": "Hey yall, unfortunately I’ll have to skip class tonight as I’m feeling under the weather and don’t want to get anyone sick! Catch everyone next week :)\n\n-Alex",
+            "repliedAt": {
+                "seconds": 1759904189,
+                "nanoseconds": 199000000
+            },
+            "repliedTo": "Alex Lawton",
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedText": "U2FsdGVkX18H+BclSK+MzSauTCF7Q2asuurWvo8Z/n+ygfaitKzoYym1zk9yBIzr"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904263918",
+        "text": "U2FsdGVkX19wzvFql05MYS0aPRuaG43I8yrzY/2TWXLWXHCQE4iSTuqNAaJdYuIUEKmGilaA7tzRGmJ0bZZUxg==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904264,
+            "nanoseconds": 22000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedMsgText": "Learning to Salsa was always a distant wish of mine then randomly I went to El Floridita on a Monday night and the live band and the good vibes had me thinking I needed to take this seriously. Signed up for this class 2 weeks later.",
+            "repliedAt": {
+                "seconds": 1759904264,
+                "nanoseconds": 22000000
+            },
+            "repliedText": "U2FsdGVkX1+2D2A+HK7Q8glid91c7WGd3tigfh2uSdTtkx7h+1P5Rd6kRZe1/9AA+xoxTlT5r8qhXVLSRKUxMg==",
+            "repliedTo": "Noela Estrada"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904289453",
+        "text": "U2FsdGVkX18u9r0A8tFHVhf4qlfUYQvuGqog1/jYkHnCxTDs47br9QnF1BOhuyDW",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904289,
+            "nanoseconds": 534000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedTo": "Sasha Herbst de Cortina",
+            "repliedMsgText": "I’m learning to get ready for dancing with Karam at our wedding!",
+            "repliedText": "U2FsdGVkX18XbPoWTTqUvHUJS0ZfE10pmTVIOebtrN83TDpsEZHj2e+Dk0+F5gjd",
+            "repliedAt": {
+                "seconds": 1759904289,
+                "nanoseconds": 534000000
+            }
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904323854",
+        "text": "U2FsdGVkX1/jgaWwHJ1/53R7pI3WhoSK+k/YajXYYi4=",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904323,
+            "nanoseconds": 931000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedAt": {
+                "seconds": 1759904323,
+                "nanoseconds": 931000000
+            },
+            "repliedTo": "Mercedes Nieves",
+            "repliedMsgText": "I want to be able to show off some moves at our next family New Year’s party💃",
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedText": "U2FsdGVkX18TkviCi93kh97QsdKMRqEUEH4aEsWvy6Y="
+        },
+        "isDeleted": false,
+        "reactions": {
+            "😊": [
+                "68d798e5f72b1204cffd00c8"
+            ]
+        }
+    },
+    {
+        "id": "1759904376001",
+        "text": "U2FsdGVkX19JEAxnx7GwTTk6ncawownhd0/8W9+ren0yV6WTb1sBz3z8C4GlDV2k",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904376,
+            "nanoseconds": 209000000
+        },
+        "isRead": [
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedMsgText": "My partner wanted to learn salsa! Also a good opportunity to meet new people since I recently moved to LA.",
+            "repliedText": "U2FsdGVkX1/2RfYgj3tz0xis0VHBC5JC9kR4pAxgV65zHoQq3NoMQcLjtn2qSca4",
+            "repliedTo": "Davion Myles",
+            "repliedAt": {
+                "seconds": 1759904376,
+                "nanoseconds": 209000000
+            }
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759904463024",
+        "text": "U2FsdGVkX1/8grkuc4zs+rEu9cgRN2hn9bs0E/UC7hKKl2LHRXhoMAYWNqLQU+0O682VWSZ6v115IfnEtb7gpV0qE7SVWCZNb9KleIGKVFNT/iOHbusP6bviCk/Onk1evomt4F0j3xpacI47K6aLd89M2YzOvjrxJu+EvJ0XPcjyF2QtyZjqOuGAZPHrDGPBAFJLlsU4WHagOtHBlAHYWOcvCZgOYMiXMG3TO7hS6Y4=",
+        "sentBy": {
+            "uid": "68b2d698c959aa8a60d8280c",
+            "displayName": "Jacqueline Ferrer"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759904463,
+            "nanoseconds": 72000000
+        },
+        "isRead": [
+            "68dc96edf72b1204cffdd80e",
+            "68c8a43e640b2c0f5d6ad123",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d6e8c959aa8a60d82954",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68d2f0a8f72b1204cffc48f8",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "🤗": [
+                "68b2d6fec959aa8a60d829a7"
+            ],
+            "👍": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759906650761",
+        "text": "U2FsdGVkX1+hs214qW4WE9uMjKakxUwu4IpS2/JcgFItjzsJBmHFXSFaLfljda3z/o6QrC9BIdXd39Qm0ckoWA==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759906650,
+            "nanoseconds": 814000000
+        },
+        "isRead": [
+            "68b2d6e8c959aa8a60d82954",
+            "68dc96edf72b1204cffdd80e",
+            "68d798e5f72b1204cffd00c8",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "678a2ee199c56aef65c6816f",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedMsgText": "My friend spoke highly of MaS and I always enjoyed dancing so I finally decided to go for it. Couldn’t be happier to be in class learning with everyone.",
+            "repliedAt": {
+                "seconds": 1759906650,
+                "nanoseconds": 814000000
+            },
+            "repliedTo": "Jacqueline Ferrer",
+            "repliedText": "U2FsdGVkX19ZpgnAlCjMeAsUFjZZANxnToThZ/17rhS+nOQks10Qu37+6X1Xu8Vi9gey7mQoPYSfh43edCT4cA==",
+            "repliedBy": "68b2d6fec959aa8a60d829a7"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759907279610",
+        "text": "U2FsdGVkX1/5RY7hL+mTFfR4075sDbe7Ydlm4OtYnBCKgVrXdbmE+E+CKQxl7I0pFhzoRVKuLLNvsIl/BNsXthUDi2wTaZVhu/PFtDtzy4A=",
+        "sentBy": {
+            "uid": "68dc96edf72b1204cffdd80e",
+            "displayName": "sabio ."
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759907279,
+            "nanoseconds": 718000000
+        },
+        "isRead": [
+            "68d798e5f72b1204cffd00c8",
+            "68da0f0df72b1204cffd69cf",
+            "68b86762c959aa8a60d99ddb",
+            "68b2d6fec959aa8a60d829a7",
+            "678a2ee199c56aef65c6816f",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7",
+                "68cef59a640b2c0f5d6be164"
+            ],
+            "😍": [
+                "68dc5488f72b1204cffdce71"
+            ]
+        }
+    },
+    {
+        "id": "1759911190049",
+        "text": "U2FsdGVkX1/6+sLLGDbmWwNvh5NAf1paQO5XEURpWdcsjhJsADW/tlZeyrlux6nARwof3Fofem6E8hMKmCWarF8dpPMm1a88mN1f/qVuIMrdq6gtp5V5gy0O2RF1PS3dpsLfEkmtBVzXlAhg88o8cXQnPqWMUQ1P+eyrkLE2XjUPLVedudkdKbdfxiQhLED7o29Cdx1gPtSDtFhv5JXIcQ==",
+        "sentBy": {
+            "uid": "68da0f0df72b1204cffd69cf",
+            "displayName": "Adam Homsi"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759911190,
+            "nanoseconds": 104000000
+        },
+        "isRead": [
+            "68b86762c959aa8a60d99ddb",
+            "68b2d6fec959aa8a60d829a7",
+            "678a2ee199c56aef65c6816f",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68d798e5f72b1204cffd00c8",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759911386293",
+        "text": "U2FsdGVkX18FaDWb4gX6guf8ZhC3ltq4h3Du3+l3xfSyYsNskz5ttjXcxY8jqoJav3Sv92MSLHPR7zC0YOi5kA==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759911386,
+            "nanoseconds": 352000000
+        },
+        "isRead": [
+            "68da0f0df72b1204cffd69cf",
+            "678a2ee199c56aef65c6816f",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b86762c959aa8a60d99ddb",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68d798e5f72b1204cffd00c8",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": {
+            "repliedTo": "Adam Homsi",
+            "repliedMsgText": "I’ve always loved listening to salsa music and the dancing looked like a lot of fun. \n\nThanks for the great class tonight, Mas team!",
+            "repliedText": "U2FsdGVkX1+wQ5uoQuw8fXZ9JaFweEOZL6jnJ5xocSbGFu43gJwm/u0xIBBzVy6bt6VM1bjM2/chftlW+M3aCQ==",
+            "repliedAt": {
+                "seconds": 1759911386,
+                "nanoseconds": 352000000
+            },
+            "repliedBy": "68b2d6fec959aa8a60d829a7"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759911447811",
+        "text": "U2FsdGVkX1+fD3K96iXu5L2VLNxYII1/10zOHeJomReK+5AUFGcuTwPe4gA4n2UoT/WShUyqJZJiN4jPua/npjwmRFIf+134VZGKw0jRGNSTV52igjtLFtsXM88vUdXB",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759911447,
+            "nanoseconds": 851000000
+        },
+        "isRead": [
+            "68da0f0df72b1204cffd69cf",
+            "678a2ee199c56aef65c6816f",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b86762c959aa8a60d99ddb",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68bc1c48179efeb2962ea6b1",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68d798e5f72b1204cffd00c8",
+            "68db3733f72b1204cffd9bfa",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6b1c959aa8a60d82871",
+            "68db01e1f72b1204cffd945b",
+            "68c9c436640b2c0f5d6afe67",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68d43042f72b1204cffc7fe9",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db14f0f72b1204cffd96d8",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "😂": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759950623743",
+        "text": "U2FsdGVkX19mMnd31oihb9fYMVnasSNf3qf+q9h/m6Ormex6pTXtFwuY/iYQDJ9pTm2p3pAbQWt43qe5x8yJ/zi8VbZEwHTTipV+Re7BGKv+lxNRglE4R3ogXug7AQcp",
+        "sentBy": {
+            "uid": "68d6cf32f72b1204cffceb65",
+            "displayName": "Max Gonzalez"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759950623,
+            "nanoseconds": 801000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68db01e1f72b1204cffd945b",
+            "68b2d6fec959aa8a60d829a7",
+            "68c9c436640b2c0f5d6afe67",
+            "68d798e5f72b1204cffd00c8",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1",
+            "678a2ee199c56aef65c6816f",
+            "68da0f0df72b1204cffd69cf",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d700c959aa8a60d829b2",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db14f0f72b1204cffd96d8",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "🙂": [
+                "68b2d6fec959aa8a60d829a7"
+            ],
+            "❤️": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759951177920",
+        "text": "U2FsdGVkX19q6ntBJD5nadSVwKuzpUm7VI5zJ6iI3w7x4DTTP1qOZUoWPB5W2XAJPxJGjaGEX8wT3DoTPuS/UTY6TVGfEsCPDNEcCmylquimKvtZnXEFOYttXF1sMvkGTaf9aGr8yisQ9211kf4Zulef7gSmseSN8QV4LaP96zjatZLS2/e2XJCwJFapjXMbCXY5wwHFO9lwoAsa9xVHEn8//M2OzoTSc6bRHYS3xJ4Tx25GoTi8MDpW37OmSZ7RLqZwITz0pNMecOY/aJIZGhicNd6C0vDpK8Z+bNxoT0+oNdMlQXBNnn31g4s+KZpbt9OnrGJmi/5pL0vPBkME3smEMOuj7ZqX2gIYGL9VhNvUFCp/dH5Ujrt4Y51TRaRtuSPA2HHyJ6PpVBanswCFwzpQ6Wbh59XJM2npcgbaqJA=",
+        "sentBy": {
+            "displayName": "Alook Boruah",
+            "uid": "68cef59a640b2c0f5d6be164"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759951178,
+            "nanoseconds": 35000000
+        },
+        "isRead": [
+            "68c9c436640b2c0f5d6afe67",
+            "68d798e5f72b1204cffd00c8",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d687c959aa8a60d827b9",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1",
+            "678a2ee199c56aef65c6816f",
+            "68da0f0df72b1204cffd69cf",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d700c959aa8a60d829b2",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db14f0f72b1204cffd96d8",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db01e1f72b1204cffd945b",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759958053267",
+        "text": "🏆\"Win in 101: Week 2” email is fresh in your inbox with wet ink! 🖋️Definitely check the \"How To Learn Faster During Class\" part. From support@moversandshakersdance.com",
+        "sentBy": {
+            "displayName": null,
+            "uid": "678a2ee199c56aef65c6816f"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759958053,
+            "nanoseconds": 267000000
+        },
+        "isRead": [
+            "68bc1c48179efeb2962ea6b1",
+            "68d798e5f72b1204cffd00c8",
+            "68dc4099f72b1204cffdcc16",
+            "68cef59a640b2c0f5d6be164",
+            "68da0f0df72b1204cffd69cf",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d700c959aa8a60d829b2",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db01e1f72b1204cffd945b",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "🔥": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759959760423",
+        "text": "U2FsdGVkX18KF7EJUk6X8RN0k624BcSRPsstrvFwFfrOuZBUdaacQJYXdIR6DEYudacqlYkW64ld9NS8cHqPIRJbuLb7rJvBc94WsnSn78h+JcGrGa0KicUi+rh2sp8+fwVCNyvrOP/XwdvuUO07sCBHdeHUP7L0EbM9Yw3PkqvPlDvfJNDh3vUUzz9FNRVUQTJ9NIEEj2N+MMd1s1zH8Et8p0P7SkhpACklczUx2WgaWAZutHXjD7krR2WbbXHi",
+        "sentBy": {
+            "displayName": "Madeleine Russell",
+            "uid": "68d43042f72b1204cffc7fe9"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759959760,
+            "nanoseconds": 622000000
+        },
+        "isRead": [
+            "678a2ee199c56aef65c6816f",
+            "68d798e5f72b1204cffd00c8",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d6cf32f72b1204cffceb65",
+            "68da0f0df72b1204cffd69cf",
+            "68b2d6fec959aa8a60d829a7",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db01e1f72b1204cffd945b",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": {
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedAt": {
+                "seconds": 1759959760,
+                "nanoseconds": 622000000
+            },
+            "repliedBy": "68d43042f72b1204cffc7fe9",
+            "repliedText": "U2FsdGVkX1+EMDJSAoGJ2rRdj3aaiBiOZYQroEsvF5d7VxOCEgy4vaVSFipgYQaYyyXH+duX+2XwXQ41FPAqaZdJ4qiL8WqG09/ccfmB1pYLK9E142gbr+3VCrd4e0KjhLk1nrewhehlBebgPpA1pX3juEO9EHCz6p/kN2UhPjDXXPC5sfjR+37PCFj65ISY86ygk5hfJgdiJCFtqWn6dyNgJrsWyirMA8uO5fbKwBJtKZlNFZf53ThOPYAic9pz",
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ],
+            "👍": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759971003294",
+        "text": "U2FsdGVkX1/3v5rJr8WziM9ZasR/E+gzHho3iW6TEIU=",
+        "sentBy": {
+            "displayName": "Mr. Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971002,
+            "nanoseconds": 208000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68cef59a640b2c0f5d6be164",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": {
+            "repliedText": "U2FsdGVkX19XdMNf5mzYHk3GywPZTCQusjktA9VnGxE=",
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedAt": {
+                "seconds": 1759971002,
+                "nanoseconds": 208000000
+            },
+            "repliedMsgText": "It was my birthday resolution to try something completely new and develop a skill I’d never imagined getting into — what better than salsa, right? 😄 Also hoping to make some new friends along the way. \nSo far, I’m really enjoying it — it’s so much fun, thanks to everyone here!! :)",
+            "repliedTo": "Alook Boruah"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1759971025154",
+        "text": "U2FsdGVkX19ii/ZGMajlLXt2HHY5Cw+7lZU7CQXtNkC2qblP5EhGj2vmgW0z1pwA",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Mr. Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971024,
+            "nanoseconds": 130000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68cef59a640b2c0f5d6be164",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": {
+            "repliedText": "U2FsdGVkX18qvw+/Lv0qglWXmTiaZWg3zKzbnlhF8yMrOyRbb4fuBSkOj7T8E3l1",
+            "repliedAt": {
+                "seconds": 1759971024,
+                "nanoseconds": 130000000
+            },
+            "repliedBy": "68b2d6fec959aa8a60d829a7",
+            "repliedTo": "Max Gonzalez",
+            "repliedMsgText": "i'm learning to salsa so i can keep up with mi Abuela in Puerto Rico!  - Max"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759971138403",
+        "text": "U2FsdGVkX19Zamd6uT+8X9vkHeCsZb3Mo4M30pXqDKIKMwf9ZIaXd3zd6xqPjJB8",
+        "sentBy": {
+            "displayName": "Mr. Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/mas-app-version-2.firebasestorage.app/o/chat_files%2F685b3ba31aff7bcf99468863%2F1759971138403_PXL_20251008_050532190.jpg?alt=media&token=3bdb26a7-b70e-4d1a-9d25-b882f7e33ba0",
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971141,
+            "nanoseconds": 667000000
+        },
+        "isRead": [
+            "68dc5488f72b1204cffdce71",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68cef59a640b2c0f5d6be164",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "😃": [
+                "68dc5488f72b1204cffdce71",
+                "68cef59a640b2c0f5d6be164"
+            ],
+            "❤️": [
+                "68da0f0df72b1204cffd69cf",
+                "68d798e5f72b1204cffd00c8"
+            ]
+        }
+    },
+    {
+        "id": "1759971175031",
+        "text": "",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Mr. Danny Kalman"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/mas-app-version-2.firebasestorage.app/o/chat_files%2F685b3ba31aff7bcf99468863%2F1759971175031_PXL_20251008_050122623.jpg?alt=media&token=44ea5021-8b98-4ce7-b7a8-19f062ed3001",
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971178,
+            "nanoseconds": 315000000
+        },
+        "isRead": [
+            "68d06ab9640b2c0f5d6c1b76",
+            "68dc5488f72b1204cffdce71",
+            "68cef59a640b2c0f5d6be164",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68da0f0df72b1204cffd69cf",
+                "68d798e5f72b1204cffd00c8"
+            ],
+            "😄": [
+                "68d06ab9640b2c0f5d6c1b76"
+            ]
+        }
+    },
+    {
+        "id": "1759971187797",
+        "text": "U2FsdGVkX18KRaGt3F9iQwEiEBQL62fWdPIBeh7+cmF0MNJPkRBQirKXWrnolaoPuV2VLYQIjWbZHz4UhwcgzN3bIsAlu0k2eddVYZAdWoMVnMrmyuqWDh/iOwNKJsAmyYKPK3QFcmE9lOX4p4b2+z9lN2OFFPiQci/fq1lrn21kAvSEoM8KFXpesaL46se5",
+        "sentBy": {
+            "uid": "68dc5488f72b1204cffdce71",
+            "displayName": "Azero Alcala"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971187,
+            "nanoseconds": 967000000
+        },
+        "isRead": [
+            "68d06ab9640b2c0f5d6c1b76",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d6fec959aa8a60d829a7",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68b2d6fec959aa8a60d829a7",
+                "68d798e5f72b1204cffd00c8"
+            ]
+        }
+    },
+    {
+        "id": "1759971318233",
+        "text": "U2FsdGVkX19yxMEne3F2ECbV3407wBwb4sfplNkzpE0dXDD/zdOa7a7IfwjL7Bgv8+XyQKDcooXqHtfvJnfVOFyfhIv5xDGVyJ1HI1oNdEH7hGwJpA/vtam+y9wuHpAfKCY32cQP+qs1sZlkhcr24fN+OYqKEKZx8SPafAAboS8=",
+        "sentBy": {
+            "displayName": "Azero Alcala",
+            "uid": "68dc5488f72b1204cffdce71"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971318,
+            "nanoseconds": 425000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68b2d6fec959aa8a60d829a7",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1759971364667",
+        "text": "",
+        "sentBy": {
+            "displayName": "Mr. Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/mas-app-version-2.firebasestorage.app/o/chat_files%2F685b3ba31aff7bcf99468863%2F1759971364667_PXL_20251008_050200062.jpg?alt=media&token=1e3483a8-b48b-43c7-a365-27f4971e58af",
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971368,
+            "nanoseconds": 330000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "☺️": [
+                "68dc447ff72b1204cffdcc89"
+            ],
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68da0f0df72b1204cffd69cf",
+                "68d798e5f72b1204cffd00c8"
+            ]
+        }
+    },
+    {
+        "id": "1759971400824",
+        "text": "U2FsdGVkX19JZCFHfR4p7og1glTXPYp5/5YXcBhTzc+20lsOw72UvoQlBFYer7H6r+2OWDVUGngfg/H8JdiPZg==",
+        "sentBy": {
+            "displayName": "Mr. Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759971399,
+            "nanoseconds": 789000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d687c959aa8a60d827b9",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68da0f0df72b1204cffd69cf",
+            "68db14f0f72b1204cffd96d8",
+            "68c9c436640b2c0f5d6afe67",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "678a2ee199c56aef65c6816f",
+            "68d43042f72b1204cffc7fe9",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d803c959aa8a60d82d2f",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "😁": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1760040145661",
+        "text": "U2FsdGVkX19L+rQejmPHVe4m24XUBpPlAmtRYaX0zx0Lte0wtZr/hdA94wlI63Oe7+uhU2Md6RlYO/9tf/MZ7myu6fNFj56tjet3jfniVQ3X0U8viTVNrulkMB1nBmKM4l1yqla6Uw4QyqkwdPT/0Nbqf41y0g2PSL4y3rrVC61kt81PcqQFIJMqoapwZWSmmeDYnXK8KwqOU7HpI0epqF/eOe5SRPV+/CN2XoVbceqRdXKvpFAuSwZsEWGWNoDtUbBWpcGrWX0OlDUur/q3wE4df3YW/kLTv1RkBK6cIZGdPEKxIN/tn458Yu0bQjXV",
+        "sentBy": {
+            "displayName": null,
+            "uid": "678a2ee199c56aef65c6816f"
+        },
+        "image": "https://firebasestorage.googleapis.com/v0/b/mas-app-version-2.firebasestorage.app/o/chat_files%2F685b3ba31aff7bcf99468863%2F2025%20S4%20Salsa%20101%20Tuesdays%20Pics%202.jpeg?alt=media&token=8c908967-68dd-4670-b192-a49a0e4544c1",
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760040145,
+            "nanoseconds": 661000000
+        },
+        "isRead": [
+            "68da0f0df72b1204cffd69cf",
+            "68d43042f72b1204cffc7fe9",
+            "68cef59a640b2c0f5d6be164",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d700c959aa8a60d829b2",
+            "68db0914f72b1204cffd9542",
+            "68b2d68ec959aa8a60d827dd",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68db3733f72b1204cffd9bfa",
+            "68c8a43e640b2c0f5d6ad123",
+            "68b2d6c3c959aa8a60d828c1",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d6fec959aa8a60d829a7",
+            "68b2d803c959aa8a60d82d2f",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68c9c436640b2c0f5d6afe67",
+            "68bf86ed179efeb2962f68ec",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68db14f0f72b1204cffd96d8",
+            "68db01e1f72b1204cffd945b",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68dc447ff72b1204cffdcc89",
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1760119468694",
+        "text": "U2FsdGVkX188JyB/Cegr04+keRjK69CXjw242raDiQxQqtEeBe95jblkGEeLZ1IV86UMkXWNXOyTN+ky1+dyR9OwgPk0r2TbraJBANwF4RA6cQjQy0AgnhMFIT8xaPy+",
+        "sentBy": {
+            "uid": "68b2d68ec959aa8a60d827dd",
+            "displayName": "Alex Nguyen"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760119469,
+            "nanoseconds": 16000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68db3733f72b1204cffd9bfa",
+            "68cef59a640b2c0f5d6be164",
+            "68c8a43e640b2c0f5d6ad123",
+            "68b2d6c3c959aa8a60d828c1",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc447ff72b1204cffdcc89",
+            "68b86762c959aa8a60d99ddb",
+            "68c24369179efeb2962fe0a4",
+            "68b2d764c959aa8a60d82b18",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d6fec959aa8a60d829a7",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d803c959aa8a60d82d2f",
+            "68cdaab3640b2c0f5d6bad2b",
+            "678a2ee199c56aef65c6816f",
+            "68db0914f72b1204cffd9542",
+            "68c9c436640b2c0f5d6afe67",
+            "68bf86ed179efeb2962f68ec",
+            "68da0f0df72b1204cffd69cf",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68db14f0f72b1204cffd96d8",
+            "68db01e1f72b1204cffd945b",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d700c959aa8a60d829b2",
+            "68d6cf32f72b1204cffceb65",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": {
+            "repliedTo": "Mr. Danny Kalman",
+            "repliedMsgText": "Question / Ice Breaker: 👉 What inspired you to learn salsa? 👈\n\n- Danny Kalman",
+            "repliedBy": "68b2d68ec959aa8a60d827dd",
+            "repliedAt": {
+                "seconds": 1760119469,
+                "nanoseconds": 16000000
+            },
+            "repliedText": "U2FsdGVkX19fedAwPiKC9eNF8RUR+nK/rE5qz7lzfG7p53q+7E2OGC1E0xywrQ5irfH6OaT+rOWiOSHQYFms2ovm/WMxyfCj8j//dAtoX1U+M/QKxHJ+Nu4aNOpdsJeU"
+        },
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ],
+            "👍": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1760143331857",
+        "text": "U2FsdGVkX1++cG3aSpZTEVhu7s1oQIYnc8/IdB2wTPXqutjei5zty3MKHdKTsGCYDN/nkKPjTNXqGLoQtlq9PA==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760143331,
+            "nanoseconds": 963000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68d2f0a8f72b1204cffc48f8",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d803c959aa8a60d82d2f",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68cdaab3640b2c0f5d6bad2b",
+            "678a2ee199c56aef65c6816f",
+            "68b8b472179efeb2962dd2b6",
+            "68b86762c959aa8a60d99ddb",
+            "68dc447ff72b1204cffdcc89",
+            "68db0914f72b1204cffd9542",
+            "68c9c436640b2c0f5d6afe67",
+            "68bf86ed179efeb2962f68ec",
+            "68b2d764c959aa8a60d82b18",
+            "68da0f0df72b1204cffd69cf",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d68ec959aa8a60d827dd",
+            "68db14f0f72b1204cffd96d8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68db01e1f72b1204cffd945b",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d700c959aa8a60d829b2",
+            "68d6cf32f72b1204cffceb65",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db3733f72b1204cffd9bfa",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": {
+            "repliedMsgText": "I wanted to join the salsa socials in Santa Monica on third street promenade!",
+            "repliedTo": "Alex Nguyen",
+            "repliedText": "U2FsdGVkX19CmebzkSJWpddvdmL3xIy/2Mii/cJHmr+WZxbVEEXOzeaaxQdjQEhD5nXAoRWYTGuptEz5Z3/a9g==",
+            "repliedAt": {
+                "seconds": 1760143331,
+                "nanoseconds": 963000000
+            },
+            "repliedBy": "68b2d6fec959aa8a60d829a7"
+        },
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1760151803965",
+        "text": "U2FsdGVkX1+yy/vWP5TR+raID9GbWvkFdsF7hPODDHXry/Go7q1a+f+M+Ico4/8ezyNMIDzQ5Erez5PURe34flmiaIAoCqoKHPhBU8+irWQ/yQNM1IZBPuriVi4j2+Gq",
+        "sentBy": {
+            "displayName": "Ms. Ariela Conde",
+            "uid": "68b2d803c959aa8a60d82d2f"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760151804,
+            "nanoseconds": 281000000
+        },
+        "isRead": [
+            "68d09a7c640b2c0f5d6c21f7",
+            "68d798e5f72b1204cffd00c8",
+            "68cdaab3640b2c0f5d6bad2b",
+            "678a2ee199c56aef65c6816f",
+            "68b8b472179efeb2962dd2b6",
+            "68b86762c959aa8a60d99ddb",
+            "68dc447ff72b1204cffdcc89",
+            "68cef59a640b2c0f5d6be164",
+            "68db0914f72b1204cffd9542",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c9c436640b2c0f5d6afe67",
+            "68bf86ed179efeb2962f68ec",
+            "68b2d764c959aa8a60d82b18",
+            "68da0f0df72b1204cffd69cf",
+            "68bc1c48179efeb2962ea6b1",
+            "68db8ac2f72b1204cffda754",
+            "68b2d68ec959aa8a60d827dd",
+            "68db14f0f72b1204cffd96d8",
+            "68c8a43e640b2c0f5d6ad123",
+            "68b2d6fec959aa8a60d829a7",
+            "68db01e1f72b1204cffd945b",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d688c959aa8a60d827be",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d700c959aa8a60d829b2",
+            "68d6cf32f72b1204cffceb65",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68db3733f72b1204cffd9bfa",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "🤩": [
+                "68d798e5f72b1204cffd00c8"
+            ],
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68b2d764c959aa8a60d82b18",
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1760469597085",
+        "text": "U2FsdGVkX1/KUHly73kawakcyRVL4XIFMx3aYeGN2fNJnRZhyVbXEVtopu2Y7QUVdT3bTybdk8CiijwjuynEVwJn2nwSxByduK3jK6Q+UzY=",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760469597,
+            "nanoseconds": 161000000
+        },
+        "isRead": [
+            "68db01e1f72b1204cffd945b",
+            "68b2d687c959aa8a60d827b9",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d68ec959aa8a60d827dd",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d688c959aa8a60d827be",
+            "68db8ac2f72b1204cffda754",
+            "68da0f0df72b1204cffd69cf",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc96edf72b1204cffdd80e",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d700c959aa8a60d829b2",
+            "68bc1c48179efeb2962ea6b1",
+            "68d798e5f72b1204cffd00c8",
+            "68d6cf32f72b1204cffceb65",
+            "678a2ee199c56aef65c6816f",
+            "68db0914f72b1204cffd9542",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68bf86ed179efeb2962f68ec",
+            "68dc447ff72b1204cffdcc89",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1760469779515",
+        "text": "U2FsdGVkX18q79YNkkg0tQXuzNJ8FzR+fYaDxMpS1aSfgvDE/oENcDqrhMqd1qle",
+        "sentBy": {
+            "displayName": "Noela Estrada",
+            "uid": "68db01e1f72b1204cffd945b"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760469779,
+            "nanoseconds": 566000000
+        },
+        "isRead": [
+            "68b2d687c959aa8a60d827b9",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d68ec959aa8a60d827dd",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d688c959aa8a60d827be",
+            "68db8ac2f72b1204cffda754",
+            "68da0f0df72b1204cffd69cf",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc96edf72b1204cffdd80e",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d700c959aa8a60d829b2",
+            "68bc1c48179efeb2962ea6b1",
+            "68b2d6fec959aa8a60d829a7",
+            "68d798e5f72b1204cffd00c8",
+            "68d6cf32f72b1204cffceb65",
+            "678a2ee199c56aef65c6816f",
+            "68db0914f72b1204cffd9542",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68bf86ed179efeb2962f68ec",
+            "68dc447ff72b1204cffdcc89",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1760469872840",
+        "text": "U2FsdGVkX1/M0Hbe9HuOv2qVy6XgP6pb6mS4vl8eG9zlRKwBmUX2lekNQuhFTnMMytn0eA281StS1NiXAkz2/gqwGxbjL75zD+8Zau0sXT190u5XTXhL4iLLxpS8fTPUnWYVQFdZlfbEQb9zmDGkUA==",
+        "sentBy": {
+            "uid": "68db01e1f72b1204cffd945b",
+            "displayName": "Noela Estrada"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760469872,
+            "nanoseconds": 891000000
+        },
+        "isRead": [
+            "68b2d687c959aa8a60d827b9",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d68ec959aa8a60d827dd",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d688c959aa8a60d827be",
+            "68db8ac2f72b1204cffda754",
+            "68da0f0df72b1204cffd69cf",
+            "68d2f0a8f72b1204cffc48f8",
+            "68dc96edf72b1204cffdd80e",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d700c959aa8a60d829b2",
+            "68bc1c48179efeb2962ea6b1",
+            "68b2d6fec959aa8a60d829a7",
+            "68d798e5f72b1204cffd00c8",
+            "68d6cf32f72b1204cffceb65",
+            "678a2ee199c56aef65c6816f",
+            "68db0914f72b1204cffd9542",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68bf86ed179efeb2962f68ec",
+            "68dc447ff72b1204cffdcc89",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1760506209432",
+        "text": "U2FsdGVkX18LgfK7c5VajbWtdrMS/N1XMAzk4eJ6rUrjwH6Zdu4ssdo659pRCn8Ihd+vU7DvPfKrMF4ChRW0MIVA6Xfxv3kaV0GnDIFAsFwpcdw9P0xY/ds7c7BIvvyvdXoJLSlLXlxTuw7eXrxbiA==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760506209,
+            "nanoseconds": 540000000
+        },
+        "isRead": [
+            "68b2d700c959aa8a60d829b2",
+            "68d798e5f72b1204cffd00c8",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d68ec959aa8a60d827dd",
+            "68cef59a640b2c0f5d6be164",
+            "68cdaab3640b2c0f5d6bad2b",
+            "678a2ee199c56aef65c6816f",
+            "68db0914f72b1204cffd9542",
+            "68d2f0a8f72b1204cffc48f8",
+            "68c24369179efeb2962fe0a4",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68da0f0df72b1204cffd69cf",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68dc447ff72b1204cffdcc89",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68cef59a640b2c0f5d6be164",
+                "68da0f0df72b1204cffd69cf"
+            ],
+            "☺️": [
+                "68d798e5f72b1204cffd00c8"
+            ]
+        }
+    },
+    {
+        "id": "1760544917097",
+        "text": "U2FsdGVkX18tNaNdSmPl5cQil1hu14UPJRS0QuomafiM2Hd0Fevlll73UXowtZLrQc7oiBLQA7sPxqtMr+8JC5kIKVji5gFHm199+q3JVtpx+nGC8ZonvVVY6QU0B9VB8ZNhYe7qpk52brve8DMtwIr4Szx0hOOiR8Xrr/Vq91DA924rwQFMd97fT0VtZULThk1qRBqcS58QlxQBM4p5BAqLfuGOCG2XLWaJbubGElU0Uv8UVcVTQOtPe3sjzPaUVsip41t1wemQ8LvVm5jGEg==",
+        "sentBy": {
+            "uid": "678a2ee199c56aef65c6816f",
+            "displayName": null
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760544917,
+            "nanoseconds": 97000000
+        },
+        "isRead": [
+            "68db0914f72b1204cffd9542",
+            "68b2d700c959aa8a60d829b2",
+            "68d2f0a8f72b1204cffc48f8",
+            "68cef59a640b2c0f5d6be164",
+            "68c24369179efeb2962fe0a4",
+            "68d798e5f72b1204cffd00c8",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6fec959aa8a60d829a7",
+            "68da0f0df72b1204cffd69cf",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68dc447ff72b1204cffdcc89",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1760546498764",
+        "text": "U2FsdGVkX18kQfudQQtXmFcavFamB2UK1kPXCCJumwO+zjU/cr0Bsx4Mgq92TWHyVmhjC3KoQY8j26D+0x7SZ8kPb+QkU43PkChpcdMz6jIakbLrUytDjWIe0MunH25gjeJtw6SLWpzlBZpX6kaG68x1hiLDqBLHO52zD2Mg47BJNzk7UVaIZvJk16NByxtDCKKPFnXC/iz247uVz0QChyy3WCHvp91pv2iR3WXFGwvBlEAqQ23ntGmkiEdrnpi5+c/a9aYIs9kPk2BQ+GAHWBrgxu34sWFUrnnRnWlgjz9jWrLihyibUrzdf/9j1IxjbbMNkn6Ye/Sy2gmFz3aMWA==",
+        "sentBy": {
+            "displayName": null,
+            "uid": "678a2ee199c56aef65c6816f"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760546498,
+            "nanoseconds": 764000000
+        },
+        "isRead": [
+            "68b2d700c959aa8a60d829b2",
+            "68d2f0a8f72b1204cffc48f8",
+            "68cef59a640b2c0f5d6be164",
+            "68c24369179efeb2962fe0a4",
+            "68d798e5f72b1204cffd00c8",
+            "68d482c9f72b1204cffc8923",
+            "68dc5488f72b1204cffdce71",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d68ac959aa8a60d827c4",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d6fec959aa8a60d829a7",
+            "68da0f0df72b1204cffd69cf",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68db0914f72b1204cffd9542",
+            "68dc447ff72b1204cffdcc89",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "🙂": [
+                "68dc5488f72b1204cffdce71"
+            ],
+            "❤️": [
+                "68d2f0a8f72b1204cffc48f8",
+                "68cef59a640b2c0f5d6be164"
+            ]
+        }
+    },
+    {
+        "id": "1760583618216",
+        "text": "U2FsdGVkX18zli4TAwGpEfIZW/uSWL+sfSDqQ3O1pdU=",
+        "sentBy": {
+            "uid": "68b2d68ac959aa8a60d827c4",
+            "displayName": "Mr. Zachary Rosenthal"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760583618,
+            "nanoseconds": 264000000
+        },
+        "isRead": [
+            "68cef59a640b2c0f5d6be164",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d6cf32f72b1204cffceb65",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d6fec959aa8a60d829a7",
+            "68da0f0df72b1204cffd69cf",
+            "678a2ee199c56aef65c6816f",
+            "68d798e5f72b1204cffd00c8",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b86762c959aa8a60d99ddb",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68db0914f72b1204cffd9542",
+            "68dc447ff72b1204cffdcc89",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1760660212780",
+        "text": "U2FsdGVkX1+HiRi9aK+/IRYj67Z8E/jC1X6oEDB4EnovXolBfSx4IrCO/uaPflWEBjG3+XRTLRGdt+VrbAAcWAk5gn/vabGO8JYBm1rOOzUQwrdWcqtBbj5u7A1bi6LBN0YbR5jh1AKzXZ0QpILcqsE98edCwHYHLMvH2uYgJHobSJBTzA/jmgbKpmcJNu6E",
+        "sentBy": {
+            "displayName": null,
+            "uid": "678a2ee199c56aef65c6816f"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760660212,
+            "nanoseconds": 780000000
+        },
+        "isRead": [
+            "68d6cf32f72b1204cffceb65",
+            "68d798e5f72b1204cffd00c8",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68b2d6c3c959aa8a60d828c1",
+            "68cef59a640b2c0f5d6be164",
+            "68b86762c959aa8a60d99ddb",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d6fec959aa8a60d829a7",
+            "68db3733f72b1204cffd9bfa",
+            "68b2d700c959aa8a60d829b2",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68da0f0df72b1204cffd69cf",
+            "68db0914f72b1204cffd9542",
+            "68dc447ff72b1204cffdcc89",
+            "68d482c9f72b1204cffc8923",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "68b2d68ac959aa8a60d827c4",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1760731915896",
+        "text": "U2FsdGVkX18HvCPeo/fN1kZFoD/UxstSlWW0gpsNZZ+fR/ZUf4rDBS/Ajs9gPhxllJkms2/y5pYp8+C/W29OZg==",
+        "sentBy": {
+            "uid": "68b2d700c959aa8a60d829b2",
+            "displayName": "Rogelio Bautista"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760731915,
+            "nanoseconds": 951000000
+        },
+        "isRead": [
+            "68b2d6c3c959aa8a60d828c1",
+            "68db01e1f72b1204cffd945b",
+            "68bf86ed179efeb2962f68ec",
+            "68d798e5f72b1204cffd00c8",
+            "68da0f0df72b1204cffd69cf",
+            "68db3733f72b1204cffd9bfa",
+            "68db0914f72b1204cffd9542",
+            "68d6cf32f72b1204cffceb65",
+            "68cef59a640b2c0f5d6be164",
+            "68dc447ff72b1204cffdcc89",
+            "68d482c9f72b1204cffc8923",
+            "68b86762c959aa8a60d99ddb",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6fec959aa8a60d829a7",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "678a2ee199c56aef65c6816f",
+            "68b2d68ac959aa8a60d827c4",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1760744874309",
+        "text": "U2FsdGVkX19iB3GkK8pqOa1fOc0eAspVGnm5fOIT59lUYEWeKCDP4L9rYieEdlFgIV7hOIcW+xASpcgOJ+TXVMBdG5xHfZC4wRMs6ABhcPA=",
+        "sentBy": {
+            "displayName": "Noela Estrada",
+            "uid": "68db01e1f72b1204cffd945b"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1760744874,
+            "nanoseconds": 339000000
+        },
+        "isRead": [
+            "68b2d700c959aa8a60d829b2",
+            "68bf86ed179efeb2962f68ec",
+            "68d798e5f72b1204cffd00c8",
+            "68da0f0df72b1204cffd69cf",
+            "68db3733f72b1204cffd9bfa",
+            "68db0914f72b1204cffd9542",
+            "68d6cf32f72b1204cffceb65",
+            "68cef59a640b2c0f5d6be164",
+            "68dc447ff72b1204cffdcc89",
+            "68d482c9f72b1204cffc8923",
+            "68b86762c959aa8a60d99ddb",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d68ec959aa8a60d827dd",
+            "68b2d688c959aa8a60d827be",
+            "68d43042f72b1204cffc7fe9",
+            "68b2d6fec959aa8a60d829a7",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68dc4099f72b1204cffdcc16",
+            "678a2ee199c56aef65c6816f",
+            "68b2d68ac959aa8a60d827c4",
+            "68bc1c48179efeb2962ea6b1"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68b2d700c959aa8a60d829b2",
+                "68b2d6fec959aa8a60d829a7"
+            ]
+        }
+    },
+    {
+        "id": "1761111864178",
+        "text": "U2FsdGVkX19m3lzNEz2d9dFdIDxd/Fj5u/fl232371/lFMFkyjSw971nDJNGRzcqkYyTtj3L7tNqtcnH40LhqQ==",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1761111864,
+            "nanoseconds": 268000000
+        },
+        "isRead": [
+            "68dc447ff72b1204cffdcc89",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68da0f0df72b1204cffd69cf",
+            "68d6cf32f72b1204cffceb65",
+            "68bf86ed179efeb2962f68ec",
+            "68d43042f72b1204cffc7fe9",
+            "678a2ee199c56aef65c6816f",
+            "68b2d6b1c959aa8a60d82871",
+            "68b2d68ac959aa8a60d827c4",
+            "68db01e1f72b1204cffd945b",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d68ec959aa8a60d827dd",
+            "68bc1c48179efeb2962ea6b1",
+            "68d2f0a8f72b1204cffc48f8",
+            "68db3733f72b1204cffd9bfa",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {
+            "❤️": [
+                "68d43042f72b1204cffc7fe9"
+            ],
+            "😄": [
+                "68d06ab9640b2c0f5d6c1b76"
+            ]
+        }
+    },
+    {
+        "id": "1761147489454",
+        "text": "U2FsdGVkX19QS75WFugnm+c3aeNHFLI2kWtN5dHeGlr4oFcRxPxapIyJzhlEJDzU",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1761147489,
+            "nanoseconds": 495000000
+        },
+        "isRead": [
+            "678a2ee199c56aef65c6816f",
+            "68b2d6b1c959aa8a60d82871",
+            "68b2d68ac959aa8a60d827c4",
+            "68db01e1f72b1204cffd945b",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d68ec959aa8a60d827dd",
+            "68bc1c48179efeb2962ea6b1",
+            "68d2f0a8f72b1204cffc48f8",
+            "68db3733f72b1204cffd9bfa",
+            "68dc447ff72b1204cffdcc89",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68d06ab9640b2c0f5d6c1b76"
+        ],
+        "replies": null,
+        "isDeleted": true,
+        "reactions": []
+    },
+    {
+        "id": "1761147507822",
+        "text": "U2FsdGVkX19Ctttf0RmYAhWJpfkBahrves4maCCFyo3yEHcEZkcOJfNKcpvMJmXPZRbxhnNpWmzkdkQV4S6J3eGdSwaK5HFLGy2xntMZDpH85ECV8CnWjl5byan2pU8zts1x/2TxGqd+GAuxWrBfq02ygoG6Q65G+S+LqAiBI/mNYlzdSVacmNdUG9/8LKi9",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1761147507,
+            "nanoseconds": 872000000
+        },
+        "isRead": [
+            "678a2ee199c56aef65c6816f",
+            "68b2d6b1c959aa8a60d82871",
+            "68b2d68ac959aa8a60d827c4",
+            "68db01e1f72b1204cffd945b",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d68ec959aa8a60d827dd",
+            "68bc1c48179efeb2962ea6b1",
+            "68d2f0a8f72b1204cffc48f8",
+            "68db3733f72b1204cffd9bfa",
+            "68dc447ff72b1204cffdcc89",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68d06ab9640b2c0f5d6c1b76"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": {}
+    },
+    {
+        "id": "1761236635522",
+        "text": "U2FsdGVkX19qtfbmuE5ETOBz+vblbiEj3fJmbgPKAcc=",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1761236635,
+            "nanoseconds": 561000000
+        },
+        "isRead": [
+            "68bc1c48179efeb2962ea6b1",
+            "678a2ee199c56aef65c6816f",
+            "68b2d68ec959aa8a60d827dd",
+            "68db3733f72b1204cffd9bfa",
+            "68dc447ff72b1204cffdcc89",
+            "68d798e5f72b1204cffd00c8",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68d06ab9640b2c0f5d6c1b76"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1761236748344",
+        "text": "U2FsdGVkX1+FGFzjrjAT6tvAgIE3a26QTzkCdmZBf8Q=",
+        "sentBy": {
+            "displayName": "Danny Kalman",
+            "uid": "68b2d6fec959aa8a60d829a7"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1761236748,
+            "nanoseconds": 390000000
+        },
+        "isRead": [
+            "68bc1c48179efeb2962ea6b1",
+            "678a2ee199c56aef65c6816f",
+            "68b2d68ec959aa8a60d827dd",
+            "68db3733f72b1204cffd9bfa",
+            "68dc447ff72b1204cffdcc89",
+            "68d798e5f72b1204cffd00c8",
+            "68cef59a640b2c0f5d6be164",
+            "68b2d700c959aa8a60d829b2",
+            "68d06ab9640b2c0f5d6c1b76"
+        ],
+        "replies": null,
+        "isDeleted": false,
+        "reactions": []
+    },
+    {
+        "id": "1759434528700",
+        "text": "U2FsdGVkX1/7FNjxVqi6dHygzmkeHumlbP22NlDUki+at5UFuGnOzbWI7DvlbXuP",
+        "sentBy": {
+            "uid": "68b2d6fec959aa8a60d829a7",
+            "displayName": "Mr. Danny Kalman"
+        },
+        "image": null,
+        "video": null,
+        "fileUrl": null,
+        "sentAt": {
+            "seconds": 1759434526,
+            "nanoseconds": 839000000
+        },
+        "isRead": [
+            "68c24369179efeb2962fe0a4",
+            "68da0f0df72b1204cffd69cf",
+            "68db3733f72b1204cffd9bfa",
+            "678a2ee199c56aef65c6816f",
+            "68dd7c3ef72b1204cffe0383",
+            "68d2f0a8f72b1204cffc48f8",
+            "68b2d68ec959aa8a60d827dd",
+            "68dc447ff72b1204cffdcc89",
+            "68d798e5f72b1204cffd00c8",
+            "68b2d700c959aa8a60d829b2",
+            "68c8a43e640b2c0f5d6ad123",
+            "68abdbda97d6121fb1d0b03a",
+            "68bc1c48179efeb2962ea6b1",
+            "68dc5488f72b1204cffdce71",
+            "68d43042f72b1204cffc7fe9",
+            "68c9c436640b2c0f5d6afe67",
+            "68d09a7c640b2c0f5d6c21f7",
+            "68db0914f72b1204cffd9542",
+            "68bf86ed179efeb2962f68ec",
+            "68dc4099f72b1204cffdcc16",
+            "68b86762c959aa8a60d99ddb",
+            "68ccb4bc640b2c0f5d6b7ef4",
+            "68db14f0f72b1204cffd96d8",
+            "68b2d688c959aa8a60d827be",
+            "68d06ab9640b2c0f5d6c1b76",
+            "68c8a1c1640b2c0f5d6ad0df",
+            "68b2d68fc959aa8a60d827de",
+            "68db01e1f72b1204cffd945b",
+            "68d0ca62640b2c0f5d6c28c6",
+            "68cef59a640b2c0f5d6be164",
+            "68b8b472179efeb2962dd2b6",
+            "68b2d764c959aa8a60d82b18",
+            "68b2d6b1c959aa8a60d82871",
+            "68cdaab3640b2c0f5d6bad2b",
+            "68b2d698c959aa8a60d8280c",
+            "68dc96edf72b1204cffdd80e",
+            "68b2d6e8c959aa8a60d82954",
+            "68d6cf32f72b1204cffceb65",
+            "68b2d687c959aa8a60d827b9",
+            "68b2d6c3c959aa8a60d828c1",
+            "68b2d803c959aa8a60d82d2f",
+            "68db8ac2f72b1204cffda754",
+            "68d482c9f72b1204cffc8923",
+            "68b2d68ac959aa8a60d827c4"
+        ],
+        "replies": null,
+        "isDeleted": true,
+        "reactions": {}
+    }
+]
