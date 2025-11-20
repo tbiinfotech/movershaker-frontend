@@ -1,17 +1,21 @@
-import UserBar from './UserBar'
-import ChatSearch from './ChatSearch'
-import Chats from './Chats'
-import { Box } from '@material-ui/core'
-import { useState } from 'react'
-import useStyles from './styles'
+import UserBar from './UserBar';
+import ChatSearch from './ChatSearch';
+import Chats from './Chats';
+import { Box } from '@mui/material';
+import { useState } from 'react';
+// import useStyles from './styles';
+import { SidebarWrapper } from './styles';
+import { useSelector } from 'react-redux';
+import { AppState } from '../../../../../../store/chatStore';
 
 const Sidebar = () => {
-  const classes = useStyles()
+  // const classes = useStyles();
   const [search, setSearch] = useState('');
+  const chats = useSelector((state: AppState) => state.chats.chats);
 
   return (
-    <Box
-      className={classes.sidebar}
+    <SidebarWrapper
+      // className={classes.sidebar}
       display="flex"
       flexDirection="column"
       border={1}
@@ -20,11 +24,11 @@ const Sidebar = () => {
       borderLeft={0}
       borderColor={'divider'}
     >
-      <UserBar />
+      <UserBar search={search} setSearch={setSearch} />
       <ChatSearch search={search} setSearch={setSearch} />
       <Chats search={search} />
-    </Box>
-  )
-}
+    </SidebarWrapper>
+  );
+};
 
-export default Sidebar
+export default Sidebar;

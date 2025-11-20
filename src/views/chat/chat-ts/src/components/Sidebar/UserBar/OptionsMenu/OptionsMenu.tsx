@@ -1,47 +1,36 @@
-import React, { useState } from 'react'
-import { auth } from '../../../../firebase'
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz'
-import ExitToAppIcon from '@material-ui/icons/ExitToApp'
-import SettingsIcon from '@material-ui/icons/Settings'
-import HelpIcon from '@material-ui/icons/Help'
-import ReportIcon from '@material-ui/icons/Report'
-import {
-  IconButton,
-  ListItemIcon,
-  ListItemText,
-  Menu,
-  MenuItem,
-} from '@material-ui/core'
-import { useNavigate  } from 'react-router-dom'
+import React, { useState } from 'react';
+import { auth } from '../../../../firebase';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import SettingsIcon from '@mui/icons-material/Settings';
+import HelpIcon from '@mui/icons-material/Help';
+import ReportIcon from '@mui/icons-material/Report';
+import { IconButton, ListItemIcon, ListItemText, Menu, MenuItem } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const OptionsMenu = () => {
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
-  let history = useNavigate()
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  let history = useNavigate();
 
   const openMenu = (e: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(e.currentTarget)
-  }
+    setAnchorEl(e.currentTarget);
+  };
 
   const handleClose = () => {
-    setAnchorEl(null)
-  }
+    setAnchorEl(null);
+  };
 
   const logout = () => {
-    auth.signOut()
-    history('/')
-  }
+    auth.signOut();
+    history('/');
+  };
 
   return (
     <>
       <IconButton onClick={openMenu}>
         <MoreHorizIcon />
       </IconButton>
-      <Menu
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
+      <Menu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
         <MenuItem disabled onClick={handleClose}>
           <ListItemIcon>
             <SettingsIcon />
@@ -68,7 +57,7 @@ const OptionsMenu = () => {
         </MenuItem>
       </Menu>
     </>
-  )
-}
+  );
+};
 
-export default OptionsMenu
+export default OptionsMenu;

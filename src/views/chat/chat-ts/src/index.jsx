@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import CustomThemeProvider from './theme/CustomThemeProvider';
 import { store } from '../../../../store/chatStore';
-import { CssBaseline } from '@material-ui/core';
+import { CssBaseline } from '@mui/material';
 
 const Index = () => {
   return (

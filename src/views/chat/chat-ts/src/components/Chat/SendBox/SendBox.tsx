@@ -1,110 +1,100 @@
-import { useEffect, useState, useRef, useContext } from 'react'
-import { useSelector } from 'react-redux'
-import Picker from 'emoji-picker-react'
-import { serverTimestamp, arrayUnion } from 'firebase/firestore'
-import { db, storage, auth } from '../../../firebase'
-import { useAuthState } from 'react-firebase-hooks/auth'
-import { AppState } from '../../../../../../../store/chatStore'
-import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions'
-import SendIcon from '@material-ui/icons/Send'
-import AttachFileIcon from '@material-ui/icons/AttachFile'
-import {
-  Box,
-  IconButton,
-  Input,
-  TextField,
-  Popover,
-  LinearProgress,
-  Typography,
-} from '@material-ui/core'
-import useStyles from './styles'
-import { collection, addDoc, doc, setDoc, onSnapshot,getDoc } from 'firebase/firestore'
-import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage'
-import { v4 as uuidv4 } from 'uuid'
-import { updateTypingStatus } from './../../../../../../../services/firebase'
-import { AuthContext } from './../../../../../../../contexts/AuthContext'
-import { encryptMessage } from '../../../utils'
-import messageJson from './../Messages/message.json'
+import { useEffect, useState, useRef, useContext } from 'react';
+import { useSelector } from 'react-redux';
+import Picker from 'emoji-picker-react';
+import { serverTimestamp, arrayUnion } from 'firebase/firestore';
+import { db, storage, auth } from '../../../firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { AppState } from '../../../../../../../store/chatStore';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
+import SendIcon from '@mui/icons-material/Send';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
+import { Box, IconButton, Input, TextField, Popover, LinearProgress, Typography } from '@mui/material';
+// import useStyles from './styles';
+import { collection, addDoc, doc, setDoc, onSnapshot, getDoc } from 'firebase/firestore';
+import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
+import { v4 as uuidv4 } from 'uuid';
+import { updateTypingStatus } from './../../../../../../../services/firebase';
+import { AuthContext } from './../../../../../../../contexts/AuthContext';
+import { encryptMessage } from '../../../utils';
+import messageJson from './../Messages/message.json';
+import { FormWrapper, StyledInput } from './styles';
 
 const SendBox = (props: any) => {
-  const { setIsScroll } = props
-  const { auth: currentAuth } = useContext(AuthContext)
-  const [user, loading] = useAuthState(auth)
-  const classes = useStyles()
-  const chatID = useSelector((state: AppState) => state.chats.currentChat.id)
-  const [input, setInput] = useState('')
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
-  const [selectedFile, setSelectedFile] = useState<File | null>(null)
-  const [uploading, setUploading] = useState(false)
-  const [uploadProgress, setUploadProgress] = useState(0)
-  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const { setIsScroll } = props;
+  const { auth: currentAuth } = useContext(AuthContext);
+  const [user, loading] = useAuthState(auth);
+  // const classes = useStyles();
+  const chatID = useSelector((state: AppState) => state.chats.currentChat.id);
+  const [input, setInput] = useState('');
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const sendForm = useRef();
 
   useEffect(() => {
-    setInput('')
-    setSelectedFile(null)
-  }, [chatID])
+    setInput('');
+    setSelectedFile(null);
+  }, [chatID]);
 
   const sendMessage = async (e: React.FormEvent, replies: []) => {
-    e.preventDefault()
-    setInput('')
-    setIsScroll(true)
-    if (input.trim() === '' && !selectedFile) return
+    e.preventDefault();
+    setInput('');
+    setIsScroll(true);
+    if (input.trim() === '' && !selectedFile) return;
 
     try {
-      let image = ''
-      let video = ''
-      let fileUrl = ''
+      let image = '';
+      let video = '';
+      let fileUrl = '';
 
       if (selectedFile) {
-        setUploading(true)
-        const fileRef = ref(
-          storage,
-          `chat_files/${chatID}/${selectedFile.name}`,
-        )
-        const uploadTask = uploadBytesResumable(fileRef, selectedFile)
+        setUploading(true);
+        const fileRef = ref(storage, `chat_files/${chatID}/${selectedFile.name}`);
+        const uploadTask = uploadBytesResumable(fileRef, selectedFile);
 
         // Use a promise to handle the upload completion
         await new Promise<void>((resolve, reject) => {
           uploadTask.on(
             'state_changed',
             (snapshot) => {
-              const progress =
-                (snapshot.bytesTransferred / snapshot.totalBytes) * 100
-              console.log(progress, 'upload:::::')
-              setUploadProgress(progress)
+              const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+              console.log(progress, 'upload:::::');
+              setUploadProgress(progress);
             },
             (error) => {
-              console.error('Error uploading file:', error)
-              setUploading(false)
-              reject(error) // Reject if there's an error
+              console.error('Error uploading file:', error);
+              setUploading(false);
+              reject(error); // Reject if there's an error
             },
             async () => {
               try {
-                const fileType = selectedFile.type
+                const fileType = selectedFile.type;
                 if (fileType.startsWith('image/')) {
-                  image = await getDownloadURL(uploadTask.snapshot.ref)
+                  image = await getDownloadURL(uploadTask.snapshot.ref);
                 } else if (fileType.startsWith('video/')) {
-                  video = await getDownloadURL(uploadTask.snapshot.ref)
+                  video = await getDownloadURL(uploadTask.snapshot.ref);
                 } else {
-                  fileUrl = await getDownloadURL(uploadTask.snapshot.ref)
+                  fileUrl = await getDownloadURL(uploadTask.snapshot.ref);
                 }
-                console.log('File uploaded successfully:')
-                resolve()
+                console.log('File uploaded successfully:');
+                resolve();
               } catch (error) {
-                setUploadProgress(0)
-                setUploading(false)
-                reject(error)
+                setUploadProgress(0);
+                setUploading(false);
+                reject(error);
               }
-            },
-          )
-        })
+            }
+          );
+        });
       }
 
-      let serverTime = await serverTimestamp()
-      const messageId = `${Date.now()}`
+      let serverTime = await serverTimestamp();
+      const messageId = `${Date.now()}`;
       const localTimestamp = new Date();
 
-      console.log("User @#############", currentAuth)
+      console.log('User @#############', currentAuth);
 
       const messageData = {
         _id: messageId,
@@ -112,22 +102,22 @@ const SendBox = (props: any) => {
         sentAt: localTimestamp,
         sentBy: {
           uid: currentAuth.user._id,
-          displayName: currentAuth.user.username,
+          displayName: currentAuth.user.username
         },
         user: {
-          _id: currentAuth.user._id,
+          _id: currentAuth.user._id
         },
         image,
         video,
         fileUrl,
         isRead: arrayUnion(),
         replies: replies || null,
-        isDeleted: false,
-      }
+        isDeleted: false
+      };
 
-      console.log('messageData to send:', messageData)
+      console.log('messageData to send:', messageData);
 
-      await setDoc(doc(db, 'chats', chatID, 'messages', messageId), messageData)
+      await setDoc(doc(db, 'chats', chatID, 'messages', messageId), messageData);
 
       // onSnapshot(docRef, (docSnap) => {
       //   if (docSnap.exists()) {
@@ -137,7 +127,7 @@ const SendBox = (props: any) => {
 
       // Update the recent message in the chat document
 
-      const newDateId = new Date(localTimestamp).toISOString().split('T')[0]
+      const newDateId = new Date(localTimestamp).toISOString().split('T')[0];
 
       await setDoc(
         doc(db, 'chats', chatID),
@@ -148,81 +138,67 @@ const SendBox = (props: any) => {
             sentAt: serverTime,
             sentBy: {
               uid: currentAuth.user._id,
-              displayName: currentAuth.user.username,
+              displayName: currentAuth.user.username
             },
             fileUrl,
             image,
-            video,
-          },
+            video
+          }
         },
-        { merge: true },
-      )
+        { merge: true }
+      );
 
-      setUploadProgress(0)
-      setUploading(false)
-      setSelectedFile(null)
+      setUploadProgress(0);
+      setUploading(false);
+      setSelectedFile(null);
     } catch (error) {
-      setUploadProgress(0)
-      setUploading(false)
-      console.error('Error sending message: ', error)
+      setUploadProgress(0);
+      setUploading(false);
+      console.error('Error sending message: ', error);
     }
-  }
+  };
 
   const openEmojiPicker = (e: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(e.currentTarget)
-  }
+    setAnchorEl(e.currentTarget);
+  };
 
   const closeEmojiPicker = () => {
-    setAnchorEl(null)
-  }
+    setAnchorEl(null);
+  };
 
   const onEmojiClick = (emojiObject: any) => {
-    console.log('################### onEmojiClick', emojiObject.emoji, input)
-    setInput((prev) => prev + emojiObject.emoji)
-    closeEmojiPicker()
-  }
+    console.log('################### onEmojiClick', emojiObject.emoji, input);
+    setInput((prev) => prev + emojiObject.emoji);
+    closeEmojiPicker();
+  };
 
   // Handle file input change
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      const file = e.target.files[0]
-      if (file) setSelectedFile(file)
+      const file = e.target.files[0];
+      if (file) setSelectedFile(file);
     }
-  }
+  };
 
   const handleTyping = (e) => {
-    setInput(e.target.value)
+    setInput(e.target.value);
     if (typingTimeoutRef.current) {
-      clearTimeout(typingTimeoutRef.current)
+      clearTimeout(typingTimeoutRef.current);
     }
 
-    updateTypingStatus(currentAuth.user._id, true)
+    updateTypingStatus(currentAuth.user._id, true);
 
     typingTimeoutRef.current = setTimeout(() => {
-      updateTypingStatus(currentAuth.user._id, false)
-    }, 1000)
-  }
+      updateTypingStatus(currentAuth.user._id, false);
+    }, 1000);
+  };
 
   return (
-    <Box
-      display="flex"
-      alignItems="center"
-      p={1}
-      border={1}
-      borderRight={0}
-      borderBottom={0}
-      borderLeft={0}
-      borderColor={'divider'}
-    >
+    <Box display="flex" alignItems="center" p={1} border={1} borderRight={0} borderBottom={0} borderLeft={0} borderColor={'divider'}>
       <IconButton onClick={openEmojiPicker}>
         <EmojiEmotionsIcon />
       </IconButton>
-      <Popover
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={closeEmojiPicker}
-      >
+      <Popover anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={closeEmojiPicker}>
         <Picker onEmojiClick={onEmojiClick} />
       </Popover>
 
@@ -253,53 +229,69 @@ const SendBox = (props: any) => {
       )}
 
       <form
-        className={`${classes.form} flex items-center gap-2 bg-white p-2 rounded-xl border`}
-        onSubmit={sendMessage}
+        onSubmit={(e) => {
+          console.log('from submitted');
+          sendMessage(e);
+        }}
+        ref={sendForm}
+        style={{ flexGrow: '1' }}
       >
-        <TextField
-          className={`${classes.input} flex-1`}
-          fullWidth
-          multiline
-          minRows={1}
-          maxRows={6}
-          placeholder="Type a message..."
-          variant="outlined"
-          value={input}
-          autoFocus
-          onChange={(e) => handleTyping(e)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' && !e.shiftKey) {
-              e.preventDefault() // prevent line break
-              sendMessage(e) // send message
-            }
-          }}
-          InputProps={{
-            sx: {
-              borderRadius: '24px',
-              padding: '8px 14px',
-              '& fieldset': { border: 'none' }, // remove outline
-            },
-          }}
-        />
-
-        <IconButton
-          type="submit"
-          color="primary"
-          disabled={input.trim() === '' && !selectedFile}
-          sx={{
-            backgroundColor: input.trim() !== '' ? '#1976d2' : '#eee',
-            color: input.trim() !== '' ? '#fff' : '#888',
-            borderRadius: '50%',
-            '&:hover': {
-              backgroundColor: input.trim() !== '' ? '#1565c0' : '#ddd',
-            },
-          }}
+        <FormWrapper
+        //  className={`${classes.form} flex items-center gap-2 bg-white p-2 rounded-xl border`}
         >
-          <SendIcon />
-        </IconButton>
+          <StyledInput
+            // className={`${classes.input} flex-1`}
+            fullWidth
+            multiline
+            minRows={1}
+            maxRows={6}
+            placeholder="Type a message..."
+            variant="outlined"
+            value={input}
+            autoFocus
+            onChange={(e) => handleTyping(e)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault(); // prevent line break
+                sendMessage(e); // send message
+              }
+            }}
+            InputProps={{
+              sx: {
+                borderRadius: '24px',
+                padding: '8px 14px',
+                '& fieldset': { border: 'none' } // remove outline
+              }
+            }}
+          />
+
+          <div>
+            <IconButton
+              type="submit"
+              color="primary"
+              disabled={input.trim() === '' && !selectedFile}
+              sx={{
+                backgroundColor: input.trim() !== '' ? '#1976d2' : '#eee',
+                color: input.trim() !== '' ? '#fff' : '#888',
+                borderRadius: '50%',
+                '&:hover': {
+                  backgroundColor: input.trim() !== '' ? '#1565c0' : '#ddd'
+                }
+              }}
+              onClick={() => {
+                console.log('clicekd on icon button');
+                if (sendForm.current) {
+                  // console.log(sendForm.current, 'jkdlsafjlk');
+                }
+              }}
+            >
+              <SendIcon />
+            </IconButton>
+          </div>
+        </FormWrapper>
       </form>
     </Box>
-  )
-}
+  );
+};
 
-export default SendBox
+export default SendBox;

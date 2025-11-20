@@ -1,37 +1,33 @@
-import { useState } from 'react'
-import { Box, Button, Input } from '@material-ui/core'
-import useStyles from './styles'
+import { useState } from 'react';
+import { Box, Button, Input } from '@mui/material';
+// import useStyles from './styles'
+import { StyledInput } from './styles';
 
 interface Props {
-  onSubmit: (input: string) => void
-  onCancel: () => void
-  confirmBtnName: string
-  placeholder: string
+  onSubmit: (input: string) => void;
+  onCancel: () => void;
+  confirmBtnName: string;
+  placeholder: string;
 }
 
-const InputBox = ({
-  onSubmit,
-  onCancel,
-  confirmBtnName,
-  placeholder,
-}: Props) => {
-  const classes = useStyles()
-  const [input, setInput] = useState('')
+const InputBox = ({ onSubmit, onCancel, confirmBtnName, placeholder }: Props) => {
+  // const classes = useStyles()
+  const [input, setInput] = useState('');
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setInput(e.currentTarget.value)
-  }
+    setInput(e.currentTarget.value);
+  };
 
   const submitForm = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    onSubmit(input)
-  }
+    e.preventDefault();
+    onSubmit(input);
+  };
 
   return (
     <Box p={2}>
       <form onSubmit={submitForm}>
-        <Input
-          className={classes.input}
+        <StyledInput
+          // className={classes.input}
           placeholder={placeholder}
           onChange={handleInput}
           value={input}
@@ -49,7 +45,7 @@ const InputBox = ({
         </Box>
       </form>
     </Box>
-  )
-}
+  );
+};
 
-export default InputBox
+export default InputBox;

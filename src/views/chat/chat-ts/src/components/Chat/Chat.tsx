@@ -6,8 +6,8 @@ import SendBox from './SendBox';
 import { AppState } from '../../../../../../store/chatStore';
 import Logo from '../../../../../../assets/images/moverLogo.jpg';
 import './Chat.css';
-import { collection, addDoc, doc, setDoc, onSnapshot,getDoc, query, where, getDocs} from 'firebase/firestore'
-import { db } from '../../firebase'
+import { collection, addDoc, doc, setDoc, onSnapshot, getDoc, query, where, getDocs } from 'firebase/firestore';
+import { db } from '../../firebase';
 
 const Chat = (props: any) => {
   const { contactClick } = props;
@@ -22,7 +22,6 @@ const Chat = (props: any) => {
       setCurrentChatId(currentChat.id);
     }
   }, [currentChat]);
-
 
   // useEffect(() => {
   //   updateSupportChat();
@@ -55,22 +54,17 @@ const Chat = (props: any) => {
   if (!Array.isArray(chats) || !chats.some((chat) => chat.id === currentChatId)) {
     return (
       <div className="no-chat-container">
-        <h4>Welcome to Move & Shakers</h4>
+        <h4>Welcome to Movers & Shakers</h4>
         <p>Select a chat to start messaging</p>
         <img src={Logo} alt="No chat selected" className="no-chat-image" />
       </div>
     );
   }
 
-
-
-
-
-
   return (
     <div className="chat-container">
-      <ChatBar handleClick={contactClick} existMessage={existMessage}  />
-      <Messages IsMessageExist={setMessageExist} isScroll={isScroll}  />
+      <ChatBar handleClick={contactClick} existMessage={existMessage} />
+      <Messages IsMessageExist={setMessageExist} isScroll={isScroll} />
       <SendBox setIsScroll={setIsScroll} />
     </div>
   );
