@@ -10,11 +10,12 @@ import 'react-quill/dist/quill.snow.css';
 import QuillEditor from './QuillEditor';
 import 'react-date-picker/dist/DatePicker.css';
 import 'react-calendar/dist/Calendar.css';
+import AutoCompleteSelect from './AutoCompleteSelect';
 const apiUrl = import.meta.env.VITE_SERVER_URL;
 
 // Validation schema using Yup
 const validationSchema = Yup.object().shape({
-  feedCaption: Yup.string().required('Feed caption is required'),
+  // feedCaption: Yup.string().required('Feed caption is required'),
   pushNotificationCaption: Yup.string().required('Push notification caption is required'),
   // feedUrl: Yup.string().url('Enter a valid URL').required('Feed URL is required'),
   pushNotificationUrl: Yup.string().url('Enter a valid URL'),
@@ -155,7 +156,7 @@ const Create = () => {
         {({ values, setFieldValue, handleChange, setErrors }) => (
           <FormikForm>
             {/* Feed Caption */}
-            <Form.Group controlId="feedCaption" className="mb-3">
+            {/* <Form.Group controlId="feedCaption" className="mb-3">
               <Form.Label>Title for the announcement</Form.Label>
               <QuillEditor
                 setFieldValue={setFieldValue}
@@ -165,7 +166,7 @@ const Create = () => {
                 charLimit={100}
               />
               <ErrorMessage name="feedCaption" component="div" className="text-danger" />
-            </Form.Group>
+            </Form.Group> */}
 
             {/* Push Notification Caption */}
             <Form.Group controlId="pushNotificationCaption" className="mb-3">
@@ -282,7 +283,8 @@ const Create = () => {
 
                 <Form.Group controlId="programSelect" className="mb-3">
                   <Form.Label>Select Program</Form.Label>
-                  <Form.Control
+                  <AutoCompleteSelect options={programs} setFieldValue={setFieldValue} value={values.program} />
+                  {/* <Form.Control
                     as="select"
                     name="program"
                     value={values.program}
@@ -300,7 +302,8 @@ const Create = () => {
                         {formatProgramName(program.Product_Name)}
                       </option>
                     ))}
-                  </Form.Control>
+                  </Form.Control> */}
+
                   <ErrorMessage name="program" component="div" className="text-danger" />
                 </Form.Group>
               </>

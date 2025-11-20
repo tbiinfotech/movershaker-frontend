@@ -98,8 +98,7 @@ const MasterList = () => {
   }, []);
 
   useEffect(() => {
-
-    console.log(search, "###################", allPrograms)
+    console.log(search, '###################', allPrograms);
 
     const searchResult = search
       ? allPrograms.filter((program) => program.program_name?.toLowerCase().includes(search?.toLowerCase()))
@@ -190,7 +189,7 @@ const MasterList = () => {
                     </div>
                     <div className="d-flex align-items-center">
                       {/* Edit Icon */}
-                      {program.syncCaption ? (
+                      {program.syncCaption && program.captionSyncStatus !== 'processing' && (
                         <div style={{ display: 'flex', alignItems: 'center' }}>
                           <SyncButton
                             spinning={spinningButtons.includes(program.id)}
@@ -198,10 +197,10 @@ const MasterList = () => {
                             label="Sync Caption"
                           />
                         </div>
-                      ) : (
-                        program.captionSyncStatus === 'processing' && (
-                          <SyncButton spinning={true} onClick={() => handleSync(program)} label="Syncing..." />
-                        )
+                      )}
+
+                      {program.captionSyncStatus === 'processing' && (
+                        <SyncButton spinning={true} onClick={() => handleSync(program)} label="Syncing..." />
                       )}
                       {/* Edit Icon */}
 

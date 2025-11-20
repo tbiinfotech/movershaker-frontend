@@ -14,6 +14,40 @@ import { useSelector } from 'react-redux';
 
 const apiUrl = import.meta.env.VITE_SERVER_URL;
 
+async function sha256(buffer) {
+  const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function getVideoHash(file) {
+  const video = document.createElement('video');
+  if (file instanceof File) {
+    video.src = URL.createObjectURL(file);
+  } else {
+    video.src = file;
+  }
+  video.crossOrigin = 'anonymous';
+  video.muted = true;
+
+  await new Promise((res) => video.addEventListener('loadeddata', res));
+  video.currentTime = 1;
+
+  await new Promise((res) => video.addEventListener('seeked', res));
+
+  const canvas = document.createElement('canvas');
+  canvas.width = video.videoWidth;
+  canvas.height = video.videoHeight;
+
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(video, 0, 0);
+
+  const blob = await new Promise((res) => canvas.toBlob(res, 'image/jpeg', 0.7));
+  const buffer = await blob.arrayBuffer();
+
+  return await sha256(buffer);
+}
+
 const SamplePage = () => {
   const navigate = useNavigate();
   const [videoPreview, setVideoPreview] = useState(null);
@@ -52,8 +86,8 @@ const SamplePage = () => {
     week: Yup.string()
       .required('Week is required')
       .matches(/^[a-zA-Z\s]*\d+$/, 'Week must contain text followed by an integer'),
-    video_aspect: Yup.string().required('Video Aspect is required'),
-    class_date: Yup.date().required('Class date is required'),
+    // video_aspect: Yup.string().required('Video Aspect is required'),
+    // class_date: Yup.date().required('Class date is required'),
     videoFile: Yup.mixed()
       .nullable()
       .test('video-required', 'Either a video file or a video link is required', function (value) {
@@ -120,7 +154,6 @@ const SamplePage = () => {
             isDisabled: response.data.weeks.includes(option.value) // Disable if it's in response.data.weeks
           }))
         );
-        
       }
       if (response?.data?.dates?.length > 0) {
         let disabledDated = response.data.dates.map((d) => new Date(d));
@@ -141,12 +174,16 @@ const SamplePage = () => {
       setIsProgress(true);
 
       if (values.videoLink) {
+        const fileHash = await getVideoHash(values.videoLink);
+        console.log(fileHash, 'file hash hash hash hash');
+
         await axios.post(`${apiUrl}/api/media/video-upload-by-link`, {
           week: values.week,
           class_date: values.class_date,
           video_aspect: values.video_aspect,
           program: values.program,
-          videoLink: values.videoLink
+          videoLink: values.videoLink,
+          videoHash: fileHash
         });
         toast.success('Media uploaded successfully!');
         navigate('/media/master-list');
@@ -154,13 +191,25 @@ const SamplePage = () => {
       }
 
       const file = values.videoFile;
+      const fileHash = await getVideoHash(values.videoFile);
+
+      console.log(fileHash, 'file hash hash hash hash');
 
       // Step 1: Initiate multipart upload
       const initResponse = await axios.post(`${apiUrl}/api/media/initiate-upload`, {
         fileName: file.name,
-        fileType: file.type,
-        program: values.program
+        // fileType: file.type,
+        fileType: 'Test',
+        program: values.program,
+        videoHash: fileHash,
+        week: values.week
       });
+
+      if (initResponse.data.duplicate) {
+        toast.success('Media uploaded successfully!');
+        navigate('/media/master-list');
+        return;
+      }
 
       const { uploadId, key } = initResponse.data;
 
@@ -207,7 +256,8 @@ const SamplePage = () => {
         class_date: values.class_date,
         video_aspect: values.video_aspect,
         fileSize: file.size,
-        program: values.program
+        program: values.program,
+        fileHash
       });
 
       toast.success('Media uploaded successfully!');
@@ -269,7 +319,7 @@ const SamplePage = () => {
                 </Form.Group>
 
                 {/* Video Aspect */}
-                <Form.Group controlId="videoAspectSelect" className="mb-3">
+                {/* <Form.Group controlId="videoAspectSelect" className="mb-3">
                   <Form.Label>Video Aspect (56.25% or 177.78%)</Form.Label>
                   <Form.Control as="select" name="video_aspect" value={values.video_aspect} onChange={handleChange}>
                     <option value="">Select aspect ratio</option>
@@ -277,10 +327,10 @@ const SamplePage = () => {
                     <option value="177.78%">177.78%</option>
                   </Form.Control>
                   {errors.video_aspect && touched.video_aspect && <div className="text-danger">{errors.video_aspect}</div>}
-                </Form.Group>
+                </Form.Group> */}
 
                 {/* Date Picker */}
-                <Form.Group controlId="classDate" className="mb-3">
+                {/* <Form.Group controlId="classDate" className="mb-3">
                   <Form.Label className="d-block">Class Date</Form.Label>
                   <DatePicker
                     selected={values.class_date}
@@ -291,7 +341,7 @@ const SamplePage = () => {
                     excludeDates={alreadyAddedClassDate}
                   />
                   <ErrorMessage name="class_date" component="div" className="text-danger" />
-                </Form.Group>
+                </Form.Group> */}
 
                 {/* Video File Upload */}
                 <Form.Group controlId="videoUpload" className="mb-3">

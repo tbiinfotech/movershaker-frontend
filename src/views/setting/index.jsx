@@ -1,12 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col, Button, Alert } from 'react-bootstrap';
 import Card from '../../components/Card/MainCard';
 import axios from 'axios';
+import useFirstRender from 'hooks/useFirstRender';
+import { toast } from 'react-toastify';
+
 const apiUrl = import.meta.env.VITE_SERVER_URL;
 
 const SamplePage = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  useFirstRender(() => {
+    checkAuthStatus();
+  }, []);
+
+  /// Function to fetch zoho auth status
+  const checkAuthStatus = async () => {
+    try {
+      setLoading(true);
+      const response = await axios.get(`${apiUrl}/api/zoho/checkZohoAuthStatus`);
+      if (response.data.success) {
+        setIsAuthenticated(true);
+      }
+    } catch (error) {
+      toast.error(`Error while checking auth status : ${error.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   // Function to initiate the Zoho OAuth flow
   const initiateZohoOAuth = async () => {
@@ -58,19 +81,32 @@ const SamplePage = () => {
             <div>
               <h3>Zoho OAuth Integration</h3>
 
+              {loading ? (
+                '...loading'
+              ) : isAuthenticated ? (
+                <Alert variant="success">Successfully connected to Zoho CRM.</Alert>
+              ) : (
+                <>
+                  <Alert variant="danger">Not connected to Zoho CRM.</Alert>
+                  <Button variant="primary" onClick={initiateZohoOAuth}>
+                    Connect to Zoho CRM
+                  </Button>
+                </>
+              )}
+
               {/* Check if Zoho is authenticated */}
-              {isAuthenticated ? (
+              {/* {isAuthenticated ? (
                 <Alert variant="success">Successfully connected to Zoho CRM.</Alert>
               ) : (
                 <Alert variant="danger">Not connected to Zoho CRM.</Alert>
-              )}
+              )} */}
 
               {/* Button to initiate OAuth */}
-              {!isAuthenticated && (
+              {/* {!isAuthenticated && (
                 <Button variant="primary" onClick={initiateZohoOAuth}>
                   Connect to Zoho CRM
                 </Button>
-              )}
+              )} */}
 
               {/* Display error message */}
               {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}

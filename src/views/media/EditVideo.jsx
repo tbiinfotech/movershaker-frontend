@@ -39,8 +39,8 @@ const SamplePage = () => {
     week: Yup.string()
       .required('Week is required') // Required field
       .matches(/^[a-zA-Z\s]*\d+$/, 'Week must contain text followed by an integer'),
-    video_aspect: Yup.string().required('Video Aspect is required'),
-    class_date: Yup.date().required('Class date is required'),
+    // video_aspect: Yup.string().required('Video Aspect is required'),
+    // class_date: Yup.date().required('Class date is required'),
     videoFile: Yup.mixed()
       .nullable()
       .test('video-required', 'Either a video file or a video link is required', function (value) {
@@ -242,8 +242,8 @@ const SamplePage = () => {
     setFieldValue('videoFile', null);
     setFieldValue('videoLink', '');
     console.log('##### Remove video', videoPreview);
-  }
-  
+  };
+
   console.log('##### File ', videoPreview);
   return (
     <Row className="justify-content-center">
@@ -276,7 +276,7 @@ const SamplePage = () => {
                 </Form.Group>
 
                 {/* Video Aspect */}
-                <Form.Group controlId="videoAspectSelect" className="mb-3">
+                {/* <Form.Group controlId="videoAspectSelect" className="mb-3">
                   <Form.Label>Video Aspect (56.25% or 177.78%)</Form.Label>
                   <Form.Control as="select" name="video_aspect" value={values.video_aspect} onChange={handleChange}>
                     <option value="">Select aspect ratio</option>
@@ -284,10 +284,10 @@ const SamplePage = () => {
                     <option value="177.78%">177.78%</option>
                   </Form.Control>
                   {errors.video_aspect && touched.video_aspect && <div className="text-danger">{errors.video_aspect}</div>}
-                </Form.Group>
+                </Form.Group> */}
 
                 {/* Date Picker */}
-                <Form.Group controlId="classDate" className="mb-3">
+                {/* <Form.Group controlId="classDate" className="mb-3">
                   <Form.Label>Class Date</Form.Label>
                   <DatePicker
                     selected={values.class_date}
@@ -297,7 +297,7 @@ const SamplePage = () => {
                     minDate={new Date()}
                   />
                   <ErrorMessage name="class_date" component="div" className="text-danger" />
-                </Form.Group>
+                </Form.Group> */}
 
                 {/* Video File Upload */}
                 <Form.Group controlId="videoUpload" className="mb-3">

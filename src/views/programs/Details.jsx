@@ -54,17 +54,17 @@ const Example = () => {
           }
         ]
       },
-      {
-        id: 'id',
-        header: 'Total Minutes',
-        columns: [
-          {
-            accessorKey: 'Total_Minutes',
-            header: 'Total Minutes',
-            size: 350
-          }
-        ]
-      },
+      // {
+      //   id: 'id',
+      //   header: 'Total Minutes',
+      //   columns: [
+      //     {
+      //       accessorKey: 'Total_Minutes',
+      //       header: 'Total Minutes',
+      //       size: 350
+      //     }
+      //   ]
+      // },
       {
         id: 'id',
         header: 'Start Date',
@@ -94,7 +94,6 @@ const Example = () => {
   const { data: fetchedUsers = data, isError: isLoadingUsersError, isFetching: isFetchingUsers, isLoading: isLoadingUsers } = useGetUsers();
   const { mutateAsync: updateUser, isPending: isUpdatingUser } = useUpdateUser();
   const { mutateAsync: deleteUser, isPending: isDeletingUser } = useDeleteUser();
-
 
   const handleCreateUser = async ({ values, table }) => {
     const newValidationErrors = validateUser(values);

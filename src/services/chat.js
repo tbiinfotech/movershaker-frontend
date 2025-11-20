@@ -1,6 +1,6 @@
 // services/chat.js
 import { db } from './firebase'; // Adjust the import based on your file structure
-import { collection, onSnapshot, addDoc, serverTimestamp, doc, updateDoc } from 'firebase/firestore';
+import { collection, onSnapshot, addDoc, serverTimestamp, doc, updateDoc, query } from 'firebase/firestore';
 
 export const ChatService = {
   subscribeToMessages: (chatId, setMessages, modal) => {
@@ -38,5 +38,16 @@ export const ChatService = {
       lastMessage: messageData.message, // Save the message content as the last message
       lastMessageTimestamp: serverTimestamp() // Save the timestamp of the last message
     });
+  },
+
+  subscribeToChats: (setChats) => {
+    const chatsRef = collection(db, 'chats');
+    // Apply query: order + limit
+    const q = query(chatsRef, orderBy('updatedAt', 'desc'), limit(10));
+    const unsubscribe = onSnapshot(q, (snapshot) => {
+      const chatData = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+      setChats(chatData);
+    });
+    return unsubscribe;
   }
 };
