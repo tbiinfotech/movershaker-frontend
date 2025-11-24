@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import ChatBar from './ChatBar';
 import Messages from './Messages';
@@ -16,6 +16,7 @@ const Chat = (props: any) => {
   const currentChat = useSelector((state: AppState) => state.chats.currentChat);
   const [existMessage, setMessageExist] = useState<Boolean>(false);
   const [isScroll, setIsScroll] = useState<Boolean>(false);
+  const scrollRefTop = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (currentChat?.id) {
@@ -51,6 +52,8 @@ const Chat = (props: any) => {
   //   }
   // }
 
+  console.log(currentChat, 'this sis the current chat chat hcaht');
+
   if (!Array.isArray(chats) || !chats.some((chat) => chat.id === currentChatId)) {
     return (
       <div className="no-chat-container">
@@ -64,8 +67,8 @@ const Chat = (props: any) => {
   return (
     <div className="chat-container">
       <ChatBar handleClick={contactClick} existMessage={existMessage} />
-      <Messages IsMessageExist={setMessageExist} isScroll={isScroll} />
-      <SendBox setIsScroll={setIsScroll} />
+      <Messages IsMessageExist={setMessageExist} isScroll={isScroll} scrollRefTop={scrollRefTop} />
+      <SendBox setIsScroll={setIsScroll} scrollRefTop={scrollRefTop} />
     </div>
   );
 };

@@ -18,9 +18,10 @@ import { AuthContext } from './../../../../../../../contexts/AuthContext';
 import { encryptMessage } from '../../../utils';
 import messageJson from './../Messages/message.json';
 import { FormWrapper, StyledInput } from './styles';
+import axios from 'axios';
 
 const SendBox = (props: any) => {
-  const { setIsScroll } = props;
+  const { setIsScroll, scrollRefTop } = props;
   const { auth: currentAuth } = useContext(AuthContext);
   const [user, loading] = useAuthState(auth);
   // const classes = useStyles();
@@ -48,6 +49,10 @@ const SendBox = (props: any) => {
       let image = '';
       let video = '';
       let fileUrl = '';
+
+      if (scrollRefTop.current) {
+        scrollRefTop.current.scrollTop = 0;
+      }
 
       if (selectedFile) {
         setUploading(true);
@@ -119,6 +124,11 @@ const SendBox = (props: any) => {
 
       await setDoc(doc(db, 'chats', chatID, 'messages', messageId), messageData);
 
+      const response = await axios.get(
+        `${import.meta.env.VITE_SERVER_URL}/api/chat/sendChatPushNotification/${chatID}/${messageId}/${currentAuth.user._id}`
+      );
+
+      // console.log(response, 'push notification response');
       // onSnapshot(docRef, (docSnap) => {
       //   if (docSnap.exists()) {
       //     console.log('Updated Server Time:', docSnap.data().sentAt.toDate())

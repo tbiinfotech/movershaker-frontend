@@ -207,8 +207,9 @@ export const ScrollBox = styled(Box)(({ theme }) => ({
   backgroundColor: '#f0f0f0',
   paddingBottom: 16,
   backgroundImage: `url(${img})`,
-  backgroundSize: 'cover'
-  // flexDirection: 'column-reverse'
+  backgroundSize: 'cover',
+  flexDirection: 'column-reverse',
+  scrollBehavior: 'smooth'
 }));
 
 // Message bubble

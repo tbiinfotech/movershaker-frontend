@@ -60,13 +60,13 @@ import { AuthContext } from '../../../../../../../contexts/AuthContext';
 const PAGE_SIZE = 30;
 
 const Messages = (props: any) => {
-  const { isScroll } = props;
+  const { isScroll, scrollRefTop } = props;
   // const classes = useStyles();
   const { auth: loggedInUser } = useContext(AuthContext);
   const [user] = useAuthState(auth);
   const [currentChatId, setCurrentChatId] = useState<string>();
   const currentChat = useSelector((state: AppState) => state.chats.currentChat);
-  const scrollRefTop = useRef<HTMLDivElement>(null);
+  // const scrollRefTop = useRef<HTMLDivElement>(null);
   const scrollRefBottom = useRef<HTMLDivElement>(null);
   const [messages, setMessages] = useState<Message[]>([]);
   const [lastVisible, setLastVisible] = useState<any>(null);
@@ -83,18 +83,37 @@ const Messages = (props: any) => {
   const [currentMessageEvent, setCurrentMessageEvent] = useState<null | HTMLElement>(null);
   const [IsMessageEditing, setIsEditing] = useState(false);
   const [initialMessageLoad, setInitialMessageLoad] = useState(true);
+
+  const scrollRef = useRef<HTMLDivElement>(null);
   // Memoize scrollToBottom to prevent re-creation
   const scrollToBottom = useCallback(() => {
     scrollRefBottom.current?.scrollIntoView({ behavior: 'smooth' });
   }, []);
+
+  const scrollToTop = useCallback(() => {
+    if (scrollRefTop.current) {
+      scrollRefTop.current.scrollTop = 0;
+    }
+  }, [scrollRefTop]);
 
   // Sync currentChatId with Redux state
   useEffect(() => {
     if (currentChat?.id) {
       // setMessages([]);
       setCurrentChatId(() => currentChat.id);
+      setInitialMessageLoad(true);
+      scrollToTop();
     }
   }, [currentChat]);
+
+  // const expensiveClac = useCallback(
+  //   (newMessages: any) => {
+  //     newMessages.reverse().filter((nM: any) => messages.find((m) => m.id != nM.id));
+  //   },
+  //   [messages]
+  // );
+
+  // const memorizeCalc = useMemo(() => expensiveClac(newMessages) , [messages]);
 
   // **Real-time listener for new messages**
   useEffect(() => {
@@ -110,15 +129,30 @@ const Messages = (props: any) => {
         // setInitialMessageLoad(true)
         const newMessages = snapshot.docs.map((doc) => convertDocToMessage(doc));
 
-        setMessages(newMessages.reverse()); // Reverse to maintain correct order
-        // setMessages(newMessages); // Reverse to maintain correct order
+        // setMessages(newMessages.reverse()); // Reverse to maintain correct order
+
+        setMessages(newMessages); // Reverse to maintain correct order
         setLastVisible(snapshot.docs[snapshot.docs.length - 1]);
         setHasMore(snapshot.docs.length === PAGE_SIZE);
         setInitialMessageLoad(false);
+
+        // const filteredNewMessage = newMessages.reverse().filter((nM: any) => messages.find((m) => m.id != nM.id));
+        // console.log(filteredNewMessage, 'new filter message filter message');
+
+        // const memorizeCalc = useMemo(() => expensiveClac(newMessages), [messages]);
+
+        // console.log(memorizeCalc, 'the mormized updated filter message');
+
+        // if (initialMessageLoad) {
+        // setMessages(newMessages.reverse()); // Reverse to maintain correct order
+        // } else {
+        // setMessages((prev) => [ ...prev , ...filteredNewMessage]);
+        // }
+
         // Scroll to bottom on initial load
-        setTimeout(() => {
-          scrollRefBottom.current?.scrollIntoView({ behavior: 'smooth' });
-        }, 500);
+        // setTimeout(() => {
+        //   scrollRefBottom.current?.scrollIntoView({ behavior: 'smooth' });
+        // }, 500);
       }
     });
 
@@ -127,12 +161,13 @@ const Messages = (props: any) => {
 
   // Load more messages (pagination)
   const loadMoreMessages = useCallback(async () => {
+    // console.log(hasMore, isLoading, lastVisible, currentChatId, 'sjdflaksdjflk');
     if (!hasMore || isLoading || !lastVisible || !currentChatId) return;
 
-    const chatContainer = scrollRefTop.current; // Reference to the chat container
-    if (!chatContainer) return;
+    // const chatContainer = scrollRefTop.current; // Reference to the chat container
+    // if (!chatContainer) return;
 
-    const previousScrollHeight = chatContainer.scrollHeight;
+    // const previousScrollHeight = chatContainer.scrollHeight;
 
     setIsLoading(true);
     try {
@@ -141,21 +176,22 @@ const Messages = (props: any) => {
 
       const snapshot = await getDocs(q);
       if (!snapshot.empty) {
-        const newMessages = snapshot.docs.map(convertDocToMessage).reverse();
-        // const newMessages = snapshot.docs.map(convertDocToMessage);
-        setMessages((prev) => {
-          const existingIds = new Set(prev.map((msg) => msg.id));
-          const filteredMessages = newMessages.filter((msg) => !existingIds.has(msg.id));
-          return [...filteredMessages, ...prev]; // Prepend older messages
-        });
+        // const newMessages = snapshot.docs.map(convertDocToMessage).reverse();
+        const newMessages = snapshot.docs.map(convertDocToMessage);
+        // setMessages((prev) => {
+        //   const existingIds = new Set(prev.map((msg) => msg.id));
+        //   const filteredMessages = newMessages.filter((msg) => !existingIds.has(msg.id));
+        //   return [...filteredMessages, ...prev]; // Prepend older messages
+        // });
+        setMessages((prev) => [...prev, ...newMessages]);
         setLastVisible(snapshot.docs[snapshot.docs.length - 1]);
         setHasMore(snapshot.docs.length === PAGE_SIZE);
 
         // Preserve scroll position after loading messages
-        setTimeout(() => {
-          const newScrollHeight = chatContainer.scrollHeight;
-          chatContainer.scrollTop = 450;
-        }, 100);
+        // setTimeout(() => {
+        //   const newScrollHeight = chatContainer.scrollHeight;
+        //   chatContainer.scrollTop = 450;
+        // }, 100);
       } else {
         setHasMore(false);
       }
@@ -169,14 +205,14 @@ const Messages = (props: any) => {
   const handleScroll = () => {
     const { scrollTop } = scrollRefTop.current!;
     if (scrollTop < 400 && !isLoading) {
-      loadMoreMessages();
+      // loadMoreMessages();
     }
   };
 
   // Scroll to bottom when isScroll changes
-  useEffect(() => {
-    if (isScroll) scrollToBottom();
-  }, [isScroll, scrollToBottom]);
+  // useEffect(() => {
+  //   if (isScroll) scrollToBottom();
+  // }, [isScroll, scrollToBottom]);
 
   /**
    * Action Functions Below
@@ -298,11 +334,50 @@ const Messages = (props: any) => {
       console.error('Error marking messages as read:', error);
     }
   };
+
   useEffect(() => {
     if (messages.length > 0) {
       markMessagesAsRead();
     }
   }, [currentChatId, messages]);
+
+  // console.log(messages, 'all messages', hasMore);
+
+  useEffect(() => {
+    console.log('loged for first render');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          // console.log("in view");
+          // console.log(msgLoading, "Message loading", firstLoad);
+          // checkAlert();
+          console.log('entery is visible now now wnow');
+          if (!isLoading && !initialMessageLoad) {
+            console.log('entery is visible now now wnow in if');
+            loadMoreMessages();
+          } else {
+            console.log('entery is visible now now wnow in else');
+          }
+        } else {
+          console.log('enteris not visible');
+        }
+      },
+      { threshold: 0.5 }
+    );
+    const currentRef = scrollRef.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
+      // console.log("get observed");
+    } else {
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, [isLoading, hasMore, currentChatId, initialMessageLoad]);
 
   return (
     <ScrollBox
@@ -318,7 +393,7 @@ const Messages = (props: any) => {
         <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>Loading....</div>
       ) : (
         <>
-          <div>{isLoading && 'Loading..'}</div>
+          {/* <div>{isLoading && 'Loading..'}</div> */}
 
           {messages.map((message) => {
             let isReadsAll = false;
@@ -470,6 +545,8 @@ const Messages = (props: any) => {
               </MessageC>
             );
           })}
+          <div ref={scrollRef} style={{ height: '10px', display: 'flex', width: '100%', marginTop: '5px' }}></div>
+          <div>{isLoading && 'Loading..'}</div>
         </>
       )}
 

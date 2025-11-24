@@ -66,6 +66,7 @@ const Chats: React.FC<Props> = ({ search }) => {
     const typeCondition = selectedTab === 0 ? where('type', '!=', 'group') : where('type', '==', 'group');
     const q = query(chatsRef, typeCondition, orderBy('recentMessage.sentAt', 'desc'), limit(PAGE_SIZE));
     const unsubscribe = onSnapshot(q, (snapshot) => {
+      // setLoading(true);
       const chatData = snapshot.docs.map(convertDocToChat);
       console.log('subscribed chat function called the chat collection updated updated');
 
@@ -87,12 +88,28 @@ const Chats: React.FC<Props> = ({ search }) => {
     return unsubscribe;
   }, [selectedTab, currentChat]);
 
+  const loadInitialChats = useCallback(async () => {
+    // setLoading(true);
+    const chatsRef = collection(db, 'chats');
+    const typeCondition = selectedTab === 0 ? where('type', '!=', 'group') : where('type', '==', 'group');
+    const q = query(chatsRef, typeCondition, orderBy('recentMessage.sentAt', 'desc'), limit(PAGE_SIZE));
+    const chatDocs = await getDocs(q);
+    const newChats = chatDocs.docs.filter((doc) => !!doc.data().createdAt).map(convertDocToChat);
+
+    dispatch(setChatsAction(newChats));
+    // dispatch(setCurrentChat(chatData[0]));
+    setLastVisible(chatDocs.docs[chatDocs.docs.length - 1] || null);
+    setHasMore(chatDocs.docs.length === PAGE_SIZE);
+    setLoading(false);
+  }, [selectedTab, currentChat]);
+
   // **Real-time listener for updated chats**
   useEffect(() => {
     // dispatch(setCurrentChat({}));
-    // setLoading(false);
-    const unsubscribe = subscribeChats();
-    return () => unsubscribe();
+    setLoading(true);
+    loadInitialChats();
+    // const unsubscribe = subscribeChats();
+    // return () => unsubscribe();
   }, [selectedTab]);
 
   const loadChats = useCallback(
@@ -311,7 +328,8 @@ const Chats: React.FC<Props> = ({ search }) => {
           // console.log(_, val, 'thes is vale in onchnge tabs');
 
           setSelectedTab(val);
-          loadChats(val, true); // Force reload for fresh tab
+          // setLoading(true);
+          // loadChats(val, true); // Force reload for fresh tab
         }}
         TabIndicatorProps={{
           style: {

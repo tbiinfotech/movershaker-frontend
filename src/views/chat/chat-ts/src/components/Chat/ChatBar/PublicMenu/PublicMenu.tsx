@@ -39,6 +39,8 @@ const PublicMenu = ({ chat, members, isOwner, infoPage }: Props) => {
       setCurrentChatId(currentChat.id);
     }
     if (currentChat?.isChatRoomAllowed) {
+      setCheckedHide(false);
+    } else {
       setCheckedHide(true);
     }
   }, [currentChat]);
@@ -200,7 +202,7 @@ const PublicMenu = ({ chat, members, isOwner, infoPage }: Props) => {
                 <ListItemText />
               </MenuItem>
             )}
-            <MenuItem>
+            <MenuItem onClick={(e) => e.stopPropagation()}>
               <ListItemText primary="Hide Chat" />
               <Switch
                 checked={checkedHide}
