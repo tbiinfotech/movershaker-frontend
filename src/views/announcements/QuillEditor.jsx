@@ -183,14 +183,20 @@ const Editor = (props) => {
           quillEd.deleteText(charLimit, textLength);
           setRemainingCharacters(0);
         }
-        // console.log(quillEd.root.innerHTML, 'inner html of editor contnet');
+        console.log(quillEd.root.innerHTML, 'inner html of editor contnet', currentText);
         setFieldValue(fieldName, quillEd.root.innerHTML);
       } else {
         // console.log('no quill editor');
         setFieldValue(fieldName, content);
       }
     } else {
+      console.log('content , conent', content);
+      // if (!stripHTML(content)) {
+      //   setFieldValue(fieldName, '');
+      // } else {
+      // }
       setFieldValue(fieldName, content);
+      // setFieldValue(fieldName, stripHTML(content));
     }
 
     // Handle inserted images
