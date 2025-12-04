@@ -96,6 +96,8 @@ const Chats: React.FC<Props> = ({ search }) => {
     const chatDocs = await getDocs(q);
     const newChats = chatDocs.docs.filter((doc) => !!doc.data().createdAt).map(convertDocToChat);
 
+    console.log(newChats, 'new chat s new chats');
+
     dispatch(setChatsAction(newChats));
     // dispatch(setCurrentChat(chatData[0]));
     setLastVisible(chatDocs.docs[chatDocs.docs.length - 1] || null);
@@ -107,9 +109,9 @@ const Chats: React.FC<Props> = ({ search }) => {
   useEffect(() => {
     // dispatch(setCurrentChat({}));
     setLoading(true);
-    loadInitialChats();
-    // const unsubscribe = subscribeChats();
-    // return () => unsubscribe();
+    // loadInitialChats();
+    const unsubscribe = subscribeChats();
+    return () => unsubscribe();
   }, [selectedTab]);
 
   const loadChats = useCallback(
@@ -226,29 +228,6 @@ const Chats: React.FC<Props> = ({ search }) => {
     return filtered as Chat[];
   };
 
-  useEffect(() => {
-    // console.log('search is changed', search);
-    // let active = true;
-    // if (!search) {
-    //   loadChats(selectedTab, true);
-    //   return;
-    // }
-    // const runSearch = async () => {
-    //   setLoading(true);
-    //   if (search.trim()) {
-    //     const filtered = await fetchSearchResults(search);
-    //     console.log('Search term present, filtered results:', filtered);
-    //     dispatch(setChatsAction(filtered));
-    //     setFilteredChats(filtered);
-    //   }
-    //   setLoading(false);
-    // };
-    // runSearch();
-    // return () => {
-    //   active = false;
-    // };
-  }, [search, selectedTab]);
-
   useSkipFirstRender(() => {
     console.log('search is changed', search);
     let active = true;
@@ -296,28 +275,8 @@ const Chats: React.FC<Props> = ({ search }) => {
     return arr;
   };
 
-  useEffect(() => {
-    // loadChats(selectedTab, true);
-  }, []);
+  // console.log(chats, 'sjdlafksdlfk the chats chats');
 
-  // useEffect(() => {}, [currentChat, filteredChats]);
-
-  // useEffect(() => {
-  //   setChats(chats);
-  //   setFilteredChats(chats);
-  // }, [chats]);
-
-  console.log(
-    'filteredChats ######',
-    currentChat,
-    'this iscurent chat',
-    chats.length,
-    chats.map((chat: any) => {
-      console.log(chat.name);
-      return chat;
-    }),
-    chats.filter((chat: any) => chat.id == '68889eeb63bf95f143024477-678a2ee199c56aef65c6816f')
-  );
   // 68b2d69ec959aa8a60d82822-678a2ee199c56aef65c6816f
 
   return (

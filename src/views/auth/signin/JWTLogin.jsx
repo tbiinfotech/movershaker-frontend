@@ -23,6 +23,7 @@ const JWTLogin = () => {
 
       if (response.data && response.data.token) {
         login(response.data.token, response.data.user);
+
         signInWithEmailAndPassword(chatAuth, values.email, values.password)
           .then((userCredential) => {
             // Signed in
@@ -33,11 +34,12 @@ const JWTLogin = () => {
           })
           .catch((error) => {
             const errorCode = error.code;
-            console.error(errorCode)
+            console.error(errorCode);
             const errorMessage = error.message;
 
             alert(errorMessage);
           });
+        // navigate('/dashbaord');
       } else {
         setErrors({ submit: 'Login failed. Please try again.' });
       }

@@ -2,6 +2,8 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, doc, updateDoc, getDoc, setDoc } from 'firebase/firestore';
 import { getDatabase } from 'firebase/database';
 import { getAuth } from 'firebase/auth';
+import { updatePassword } from 'firebase/auth';
+import { EmailAuthProvider, reauthenticateWithCredential } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCIIbuDYbDLEc0LLDfoyLHny5Pz1pRHAA4',
@@ -40,15 +42,15 @@ const updateUserStatus = async (userId, isOnline) => {
 
 const updateTypingStatus = async (userId, isTyping) => {
   console.log('Updating typing status', userId, isTyping);
-  
+
   try {
     const userRef = doc(db, 'users', userId);
-    
+
     await setDoc(userRef, { isTyping: isTyping }, { merge: true });
 
-    console.log("Typing status updated successfully");
+    console.log('Typing status updated successfully');
   } catch (error) {
-    console.error("Error updating typing status:", error);
+    console.error('Error updating typing status:', error);
   }
 };
 
@@ -67,4 +69,31 @@ const deleteMessage = async (messageId) => {
   });
 };
 
-export { db, chatAuth, database, firestore, updateUserStatus, updateTypingStatus, markMessageAsRead, deleteMessage };
+const updatePass = async (password, oldpassword) => {
+  try {
+    const updatePassress = await updatePassword(chatAuth.currentUser, password);
+    console.log(updatePassress, 'response rsponse');
+    return true;
+  } catch (error1) {
+    console.log(error1, 'error in update pass');
+    if (error1.code === 'auth/requires-recent-login') {
+      const credential = EmailAuthProvider.credential(chatAuth.currentUser.email, oldpassword);
+      try {
+        const reauthres = await reauthenticateWithCredential(chatAuth.currentUser, credential);
+        console.log(reauthres, 'jalfkjslf reauth');
+        const updatePassress = await updatePassword(chatAuth.currentUser, password);
+        console.log(updatePassress, 'jalfkjslf update password retry');
+        return true;
+      } catch (error2) {
+        console.log(error2, 'error on retry!!!');
+        // throw new Error(error2.message);
+        throw error2;
+      }
+    } else {
+      // throw new Error(error1.message);
+      throw error1;
+    }
+  }
+};
+
+export { db, chatAuth, database, firestore, updateUserStatus, updateTypingStatus, markMessageAsRead, deleteMessage, updatePass };

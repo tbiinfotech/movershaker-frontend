@@ -13,8 +13,30 @@ const menuItems = {
           icon: 'feather icon-home',
           url: '/dashboard'
         }
+        // {
+        //   id: 'change-password',
+        //   title: 'change-password',
+        //   type: 'item',
+        //   icon: 'feather icon-edit',
+        //   url: '/auth/change-password'
+        // }
       ]
     },
+    // {
+    //   id: 'navigation',
+    //   title: 'Navigation',
+    //   type: 'group',
+    //   icon: 'icon-navigation',
+    //   children: [
+    //     {
+    //       id: 'change-password',
+    //       title: 'change-password',
+    //       type: 'item',
+    //       icon: 'feather icon-edit',
+    //       url: '/auth/change-password'
+    //     }
+    //   ]
+    // },
     {
       id: 'student-management',
       title: 'Student Management',
@@ -152,7 +174,7 @@ const menuItems = {
           url: '/media/upload'
         }
       ]
-    },
+    }
     // {
     //   id: 'support',
     //   title: 'Support',

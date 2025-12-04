@@ -43,6 +43,12 @@ const routes = [
     element: lazy(() => import('./views/auth/reset/adminresetpassword'))
   },
   {
+    path: '/auth/change-password',
+    layout: AdminLayout,
+    guard: ProtectedRoute,
+    routes: [{ exact: true, path: '/', element: lazy(() => import('./views/auth/changePassword/adminChangePassword')) }]
+  },
+  {
     path: '/student/reset/:token',
     element: lazy(() => import('./views/auth/reset/resetpassword'))
   },

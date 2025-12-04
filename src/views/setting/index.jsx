@@ -77,7 +77,7 @@ const SamplePage = () => {
     <React.Fragment>
       <Row>
         <Col>
-          <Card title="Hello Card" isOption>
+          <Card title="Settings" isOption>
             <div>
               <h3>Zoho OAuth Integration</h3>
 

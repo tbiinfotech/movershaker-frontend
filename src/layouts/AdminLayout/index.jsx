@@ -56,7 +56,10 @@ const AdminLayout = ({ children }) => {
         <div className={mainClass.join(' ')}>
           <div className={location.pathname !== '/chat/individual' && 'pcoded-content'}>
             <div className="pcoded-inner-content">
-              {location.pathname !== '/chat/individual' && <Breadcrumb />}
+              {location.pathname !== '/chat/individual' && (
+                // && location.pathname !== '/auth/change-password' ? null :
+                <Breadcrumb />
+              )}
               {children}
             </div>
           </div>

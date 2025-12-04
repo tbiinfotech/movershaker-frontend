@@ -11,7 +11,7 @@ const ResetPassword = () => {
     try {
       setSubmitting(true);
       const response = await axios.post(`${apiUrl}/api/auth/forgot-password`, {
-        email: values.email,
+        email: values.email
       });
 
       console.log('Response:', response);
@@ -27,15 +27,19 @@ const ResetPassword = () => {
   return (
     <div className="auth-wrapper">
       <div className="auth-content">
+        <div className="auth-bg">
+          <span className="r" />
+          <span className="r s" />
+          <span className="r s" />
+          <span className="r" />
+        </div>
         <Card className="borderless text-center">
           <Card.Body>
             <h3 className="mb-4">Reset Password</h3>
             <Formik
               initialValues={{ email: '', submit: null }}
               validationSchema={Yup.object().shape({
-                email: Yup.string()
-                  .email('Invalid email address')
-                  .required('Email is required'),
+                email: Yup.string().email('Invalid email address').required('Email is required')
               })}
               onSubmit={handleResetPassword}
             >
